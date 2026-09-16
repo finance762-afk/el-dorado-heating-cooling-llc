@@ -108,8 +108,8 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
 
 <style>
 /* ===== Cleaning Services page composition (tokens only) ===== */
-.svc-hero { padding-top: 0.75rem; }
-.svc-hero .hero-chips { margin-top: 0.4rem; }
+.clean-hero { padding-top: 0.75rem; }
+.clean-hero .hero-chips { margin-top: 0.4rem; }
 
 /* Sub-service detail alternating rows */
 .clean-detail__row { display: grid; grid-template-columns: 88px 1fr; gap: 1.25rem; align-items: start; padding: 1.6rem 0; border-top: 1px solid var(--color-line); }
@@ -130,20 +130,20 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
 @media (max-width: 720px) { .clean-benefits { grid-template-columns: 1fr; } }
 
 /* Trust split figure */
-.svc-figure { position: relative; border-radius: var(--radius-lg); overflow: hidden; box-shadow: var(--shadow-lg); margin: 0; }
-.svc-figure img { width: 100%; height: 100%; object-fit: cover; }
-.svc-diffs { display: grid; gap: 0.9rem; margin-top: 1.25rem; }
-.svc-diffs li { display: grid; grid-template-columns: 26px 1fr; gap: 0.7rem; align-items: start; }
-.svc-diffs svg { color: var(--color-secondary); margin-top: 2px; }
-.svc-diffs b { display: block; }
-.svc-diffs p { margin: 0.1rem 0 0; font-size: 0.92rem; color: var(--color-ink-2); }
+.clean-figure { position: relative; border-radius: var(--radius-lg); overflow: hidden; box-shadow: var(--shadow-lg); margin: 0; }
+.clean-figure img { width: 100%; height: 100%; object-fit: cover; }
+.clean-diffs { display: grid; gap: 0.9rem; margin-top: 1.25rem; }
+.clean-diffs li { display: grid; grid-template-columns: 26px 1fr; gap: 0.7rem; align-items: start; }
+.clean-diffs svg { color: var(--color-secondary); margin-top: 2px; }
+.clean-diffs b { display: block; }
+.clean-diffs p { margin: 0.1rem 0 0; font-size: 0.92rem; color: var(--color-ink-2); }
 
-.svc-cta .actions .link-call { color: var(--color-white); }
-.svc-cta .actions .link-call svg { color: var(--color-accent-bright); }
+.clean-cta .actions .link-call { color: var(--color-white); }
+.clean-cta .actions .link-call svg { color: var(--color-accent-bright); }
 </style>
 
 <!-- ============================= HERO ============================= -->
-<section class="hero hero--interior svc-hero" aria-label="HVAC cleaning services in Naples, FL">
+<section class="hero hero--interior clean-hero" aria-label="HVAC cleaning services in Naples, FL">
     <div class="container">
         <nav class="breadcrumb" aria-label="Breadcrumb" style="margin-bottom:1.25rem;font-size:.85rem;color:rgba(255,255,255,.72);">
             <a href="/" style="color:inherit;">Home</a> <span class="breadcrumb-sep">/</span>
@@ -283,7 +283,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
     <span class="grain-layer" aria-hidden="true"></span>
     <div class="container">
         <div class="split">
-            <figure class="svc-figure reveal-left">
+            <figure class="clean-figure reveal-left">
                 <picture>
                     <source type="image/avif" srcset="/assets/images/fleet-trucks-480.avif 480w, /assets/images/fleet-trucks-960.avif 960w" sizes="(max-width: 900px) 100vw, 45vw">
                     <img src="/assets/images/fleet-trucks.jpg" srcset="/assets/images/fleet-trucks-480.webp 480w, /assets/images/fleet-trucks-960.webp 960w" sizes="(max-width: 900px) 100vw, 45vw" alt="El Dorado Heating &amp; Cooling service trucks ready for a Naples cleaning job" width="960" height="720" loading="lazy" decoding="async">
@@ -293,7 +293,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
                 <span class="eyebrow-label">The Golden Standard</span>
                 <h2>Why trust El Dorado to clean your system the right way?</h2>
                 <p class="answer-block">El Dorado Heating &amp; Cooling is a licensed, family-owned Florida HVAC contractor based in Naples, serving Collier County in English and Spanish. We clean systems the way we&rsquo;d clean our own &mdash; thoroughly, without shortcuts, and with an eye for the problems that show up during the job.</p>
-                <ul class="svc-diffs">
+                <ul class="clean-diffs">
                     <li><?php echo $svg['check']; ?><div><b>Proper tools, no damage</b><p>We use real coil cleaners and technique instead of a hose that bends fins and voids warranties.</p></div></li>
                     <li><?php echo $svg['check']; ?><div><b>We catch what we clean past</b><p>Cleaning gets us up close &mdash; we flag worn parts before they fail in the heat.</p></div></li>
                     <li><?php echo $svg['check']; ?><div><b>Bilingual, local, accountable</b><p>The same Naples team every visit, reachable 24/7 if anything comes up.</p></div></li>
@@ -328,7 +328,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
 <?php renderRelatedServices($serviceSlug); ?>
 
 <!-- ============================= FINAL CTA ============================= -->
-<section class="cta-banner on-dark texture-grain edge-wave-top svc-cta" aria-label="Schedule a cleaning">
+<section class="cta-banner on-dark texture-grain edge-wave-top clean-cta" aria-label="Schedule a cleaning">
     <span class="grain-layer" aria-hidden="true"></span>
     <div class="container">
         <div class="reveal-up">

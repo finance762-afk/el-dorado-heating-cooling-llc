@@ -128,8 +128,8 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
 
 <style>
 /* ===== HVAC Services (flagship group page) composition (tokens only) ===== */
-.svc-hero { padding-top: 0.75rem; }
-.svc-hero .hero-chips { margin-top: 0.4rem; }
+.hs-hero { padding-top: 0.75rem; }
+.hs-hero .hero-chips { margin-top: 0.4rem; }
 
 /* Benefit strip — 4 verifiable facts */
 .hvac-benefits { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1rem; margin-top: clamp(1.5rem, 3vw, 2.25rem); }
@@ -151,34 +151,34 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
 @media (max-width: 640px) { .hvac-detail__row { grid-template-columns: 1fr; } .hvac-detail__badge { width: 64px; height: 64px; } }
 
 /* Trust split figure */
-.svc-figure { position: relative; border-radius: var(--radius-lg); overflow: hidden; box-shadow: var(--shadow-lg); margin: 0; }
-.svc-figure img { width: 100%; height: 100%; object-fit: cover; }
-.svc-diffs { display: grid; gap: 0.9rem; margin-top: 1.25rem; }
-.svc-diffs li { display: grid; grid-template-columns: 26px 1fr; gap: 0.7rem; align-items: start; }
-.svc-diffs svg { color: var(--color-secondary); margin-top: 2px; }
-.svc-diffs b { display: block; }
-.svc-diffs p { margin: 0.1rem 0 0; font-size: 0.92rem; color: var(--color-ink-2); }
+.hs-figure { position: relative; border-radius: var(--radius-lg); overflow: hidden; box-shadow: var(--shadow-lg); margin: 0; }
+.hs-figure img { width: 100%; height: 100%; object-fit: cover; }
+.hs-diffs { display: grid; gap: 0.9rem; margin-top: 1.25rem; }
+.hs-diffs li { display: grid; grid-template-columns: 26px 1fr; gap: 0.7rem; align-items: start; }
+.hs-diffs svg { color: var(--color-secondary); margin-top: 2px; }
+.hs-diffs b { display: block; }
+.hs-diffs p { margin: 0.1rem 0 0; font-size: 0.92rem; color: var(--color-ink-2); }
 
 /* Comparison — one call vs. three separate contractors */
 .hvac-compare__grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin-top: clamp(1.5rem, 3vw, 2.25rem); }
-.compare-col { border-radius: var(--radius-lg); padding: 1.6rem; border: 1px solid var(--color-line); }
-.compare-col--them { background: var(--color-surface); }
-.compare-col--us { background: color-mix(in srgb, var(--color-primary) 8%, var(--color-surface)); border-color: color-mix(in srgb, var(--color-primary) 30%, var(--color-line)); }
-.compare-col h3 { font-size: 1.15rem; margin-bottom: 1rem; }
-.compare-col ul { display: grid; gap: 0.8rem; }
-.compare-col li { display: grid; grid-template-columns: 22px 1fr; gap: 0.6rem; align-items: start; font-size: 0.93rem; color: var(--color-ink-2); }
-.compare-col--them svg { color: var(--color-muted); }
-.compare-col--us svg { color: var(--color-primary); }
-.compare-col--us li { color: var(--color-ink); }
+.hs-compare-col { border-radius: var(--radius-lg); padding: 1.6rem; border: 1px solid var(--color-line); }
+.hs-compare-col--them { background: var(--color-surface); }
+.hs-compare-col--us { background: color-mix(in srgb, var(--color-primary) 8%, var(--color-surface)); border-color: color-mix(in srgb, var(--color-primary) 30%, var(--color-line)); }
+.hs-compare-col h3 { font-size: 1.15rem; margin-bottom: 1rem; }
+.hs-compare-col ul { display: grid; gap: 0.8rem; }
+.hs-compare-col li { display: grid; grid-template-columns: 22px 1fr; gap: 0.6rem; align-items: start; font-size: 0.93rem; color: var(--color-ink-2); }
+.hs-compare-col--them svg { color: var(--color-muted); }
+.hs-compare-col--us svg { color: var(--color-primary); }
+.hs-compare-col--us li { color: var(--color-ink); }
 @media (max-width: 720px) { .hvac-compare__grid { grid-template-columns: 1fr; } }
 
 /* Final CTA */
-.svc-cta .actions .link-call { color: var(--color-white); }
-.svc-cta .actions .link-call svg { color: var(--color-accent-bright); }
+.hs-cta .actions .link-call { color: var(--color-white); }
+.hs-cta .actions .link-call svg { color: var(--color-accent-bright); }
 </style>
 
 <!-- ============================= HERO ============================= -->
-<section class="hero hero--interior svc-hero" aria-label="HVAC services in Naples, FL">
+<section class="hero hero--interior hs-hero" aria-label="HVAC services in Naples, FL">
     <div class="container">
         <nav class="breadcrumb" aria-label="Breadcrumb" style="margin-bottom:1.25rem;font-size:.85rem;color:rgba(255,255,255,.72);">
             <a href="/" style="color:inherit;">Home</a> <span class="breadcrumb-sep">/</span>
@@ -320,7 +320,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
     <span class="grain-layer" aria-hidden="true"></span>
     <div class="container">
         <div class="split">
-            <figure class="svc-figure reveal-left">
+            <figure class="hs-figure reveal-left">
                 <picture>
                     <source type="image/avif" srcset="/assets/images/hero-service-truck-480.avif 480w, /assets/images/hero-service-truck-960.avif 960w" sizes="(max-width: 900px) 100vw, 45vw">
                     <img src="/assets/images/hero-service-truck.jpg" srcset="/assets/images/hero-service-truck-480.webp 480w, /assets/images/hero-service-truck-960.webp 960w" sizes="(max-width: 900px) 100vw, 45vw" alt="El Dorado Heating &amp; Cooling service truck arriving for an HVAC call in Naples, FL" width="960" height="720" loading="lazy" decoding="async">
@@ -330,7 +330,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
                 <span class="eyebrow-label">The Golden Standard</span>
                 <h2>Why do Naples homeowners trust El Dorado with their whole HVAC system?</h2>
                 <p class="answer-block">El Dorado Heating &amp; Cooling is a licensed, family-owned Florida HVAC contractor based in Naples, serving Collier County in English and Spanish. One team covers cooling, heating, and ductwork, so you&rsquo;re never juggling three contractors for one comfort problem.</p>
-                <ul class="svc-diffs">
+                <ul class="hs-diffs">
                     <li><?php echo $svg['check']; ?><div><b>One team, 25 services</b><p>From AC parts to furnace conversions, the same licensed crew handles it all.</p></div></li>
                     <li><?php echo $svg['check']; ?><div><b>Built for Southwest Florida</b><p>We size and service equipment for salt air, humidity, and near-year-round runtime.</p></div></li>
                     <li><?php echo $svg['check']; ?><div><b>Bilingual, local, accountable</b><p>The same Naples team every visit, reachable 24/7 if anything comes up.</p></div></li>
@@ -352,7 +352,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
             <p class="answer-block">Splitting AC, heating, and ductwork across different companies means repeating your story, coordinating schedules, and hoping the work matches up. El Dorado Heating &amp; Cooling covers all three under one visit, one invoice, and one point of contact in Naples.</p>
         </div>
         <div class="hvac-compare__grid">
-            <div class="compare-col compare-col--them reveal-left">
+            <div class="hs-compare-col hs-compare-col--them reveal-left">
                 <h3>Three separate contractors</h3>
                 <ul>
                     <li><?php echo $svg['x']; ?><span>A different company for AC, heating, and ductwork</span></li>
@@ -362,7 +362,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
                     <li><?php echo $svg['x']; ?><span>Scheduling gaps between visits and diagnoses</span></li>
                 </ul>
             </div>
-            <div class="compare-col compare-col--us reveal-right">
+            <div class="hs-compare-col hs-compare-col--us reveal-right">
                 <h3>El Dorado Heating &amp; Cooling</h3>
                 <ul>
                     <li><?php echo $svg['check']; ?><span>Cooling, heating, and ductwork from one licensed team</span></li>
@@ -398,7 +398,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
 <?php renderRelatedServices($serviceSlug); ?>
 
 <!-- ============================= FINAL CTA ============================= -->
-<section class="cta-banner on-dark texture-grain edge-wave-top svc-cta" aria-label="Schedule HVAC service">
+<section class="cta-banner on-dark texture-grain edge-wave-top hs-cta" aria-label="Schedule HVAC service">
     <span class="grain-layer" aria-hidden="true"></span>
     <div class="container">
         <div class="reveal-up">
