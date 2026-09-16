@@ -387,6 +387,43 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
   </div>
 </section>
 
+<!-- ═══════════════════ FROM THE BLOG ═══════════════════ -->
+<?php require_once __DIR__ . '/includes/blog-data.php'; ?>
+<section class="section section--dark" aria-label="From the blog">
+  <div class="container">
+    <div class="section-head reveal-up">
+      <span class="eyebrow-label">From the Blog</span>
+      <h2>HVAC tips and <span class="text-accent">insights for Naples homes</span></h2>
+      <p class="lead">Expert advice on keeping your AC running efficiently, avoiding expensive repairs, and staying comfortable through Florida's toughest seasons.</p>
+    </div>
+
+    <?php if (!empty($blogPosts)): $featuredPost = $blogPosts[0]; ?>
+    <article class="blog-featured reveal-up reveal-delay-1">
+      <a href="/blog/<?php echo $featuredPost['slug']; ?>/" class="blog-featured-image">
+        <picture>
+          <source type="image/avif" srcset="/assets/images/<?php echo $featuredPost['image']; ?>-480.avif 480w, /assets/images/<?php echo $featuredPost['image']; ?>-960.avif 960w" sizes="(max-width: 768px) 100vw, 600px">
+          <img src="/assets/images/<?php echo $featuredPost['image']; ?>.jpg" srcset="/assets/images/<?php echo $featuredPost['image']; ?>-480.webp 480w, /assets/images/<?php echo $featuredPost['image']; ?>-960.webp 960w" sizes="(max-width: 768px) 100vw, 600px" alt="<?php echo htmlspecialchars($featuredPost['alt']); ?>" width="600" height="360" loading="lazy" decoding="async">
+        </picture>
+      </a>
+      <div class="blog-featured-content">
+        <div class="blog-meta">
+          <span class="blog-category"><?php echo $featuredPost['category']; ?></span>
+          <span class="blog-date"><?php echo $featuredPost['date']; ?></span>
+          <span class="blog-readtime"><?php echo $featuredPost['readtime']; ?></span>
+        </div>
+        <h3><a href="/blog/<?php echo $featuredPost['slug']; ?>/"><?php echo htmlspecialchars($featuredPost['title']); ?></a></h3>
+        <p><?php echo htmlspecialchars($featuredPost['excerpt']); ?></p>
+        <a href="/blog/<?php echo $featuredPost['slug']; ?>/" class="btn-secondary">Read Article</a>
+      </div>
+    </article>
+
+    <div class="text-center reveal-up reveal-delay-2" style="margin-top: var(--space-2xl);">
+      <a href="/blog/" class="btn-secondary">View All Articles</a>
+    </div>
+    <?php endif; ?>
+  </div>
+</section>
+
 <!-- ═══════════════════ ESTIMATE SECTION ═══════════════════ -->
 <section class="section section--light edge-curve-top home-estimate" id="estimate" aria-label="Request a free estimate">
   <div class="container">
