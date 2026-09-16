@@ -75,11 +75,16 @@
   --font-accent: "Barlow Condensed", 'Arial Narrow', 'Roboto Condensed', sans-serif;
 
   /* Fluid scale. H1 tops out ~42px desktop; pages never raise it. */
+  --fs-display: clamp(2.2rem, 1.4rem + 2.8vw, 3.2rem);
   --fs-h1: clamp(1.9rem, 1.15rem + 2.1vw, 2.65rem);
   --fs-h2: clamp(1.55rem, 1rem + 1.5vw, 2.1rem);
   --fs-h3: clamp(1.1rem, .95rem + .5vw, 1.3rem);
+  --fs-h4: clamp(1rem, .92rem + .28vw, 1.15rem);
+  --fs-h5: clamp(.95rem, .88rem + .24vw, 1.05rem);
+  --fs-h6: clamp(.9rem, .85rem + .18vw, 1rem);
   --fs-lead: clamp(1.05rem, .95rem + .35vw, 1.2rem);
   --fs-body: 1rem; --fs-small: .875rem; --fs-eyebrow: .78rem;
+  --fs-lg: 1.125rem; --fs-sm: .875rem;
   --font-size-xs: .75rem; --font-size-sm: .875rem; --font-size-base: 1rem; --font-size-lg: 1.125rem;
   --font-size-xl: 1.25rem; --font-size-2xl: var(--fs-h3); --font-size-3xl: var(--fs-h2); --font-size-4xl: var(--fs-h1);
   --font-size-5xl: var(--fs-h1); --font-size-6xl: var(--fs-h1);

@@ -1,0 +1,4 @@
+usage: qa_audit.py [--slug SLUG] [--json-only] [--no-write] [--legacy] [--v2]
+                   [--url URL] [-h]
+                   site_dir [tier]
+qa_audit.py: error: the following arguments are required: site_dir

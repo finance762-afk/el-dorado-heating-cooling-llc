@@ -142,7 +142,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
       <div class="hero-text">
         <span class="eyebrow">Naples, FL &middot; Family-Owned HVAC</span>
         <h1 class="hero-title">Reliable HVAC &amp; AC Repair in Naples, FL</h1>
-        <p class="hero-answer">El Dorado Heating &amp; Cooling keeps Naples homes cool with same-day AC repair, expert installs, and 24/7 emergency service &mdash; from a family team that answers in English or Spanish.</p>
+        <p class="hero-answer">El Dorado Heating &amp; Cooling keeps Naples homes cool with same-day AC repair, expert system installs, seasonal tune-ups, and round-the-clock emergency service &mdash; all from a licensed, family-owned team with over 60 years of combined HVAC experience serving Collier County in English or Spanish.</p>
         <div class="hero-actions">
           <button type="button" class="btn btn-primary btn-lg hero-form-open" data-open-estimate>Get a Free Estimate</button>
           <a class="link-call" href="tel:<?php echo $phoneTel; ?>"><?php echo $ICONS['phone']; ?> or call <?php echo $phone; ?></a>
