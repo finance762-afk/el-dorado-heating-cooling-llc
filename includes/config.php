@@ -183,6 +183,25 @@ $servicePages = [
     ],
 ];
 
+// ── Service-page card metadata (icon, on-disk photo, blurb, 3 bullets) ─────
+// Keyed by service-page slug. Drives the "Related Services" grid on every
+// service page (renderRelatedServices() in functions.php) and any card reuse.
+// Only 4 real client photos exist on disk; they rotate across cards.
+$servicePageMeta = [
+    'hvac-services'            => ['icon' => 'wind',     'photo' => 'tech-outdoor-unit', 'palt' => 'El Dorado technician servicing an outdoor AC unit at a Naples home',            'desc' => 'Repair, installation, and upkeep for cooling and heating.',        'bullets' => ['AC & heating repair', 'New system installs', 'Ductwork & tune-ups']],
+    'cleaning-services'        => ['icon' => 'droplets', 'photo' => 'fleet-trucks',      'palt' => 'El Dorado Heating & Cooling service trucks ready for a Naples job',            'desc' => 'Coil and duct cleaning that restores airflow and efficiency.',     'bullets' => ['Coil & condenser cleaning', 'Full duct cleaning', 'Better indoor air']],
+    'seasonal-services'        => ['icon' => 'sun',      'photo' => 'team-fleet',        'palt' => 'The El Dorado Heating & Cooling team with their Naples service fleet',         'desc' => 'Pre-season checkups that keep your system heat-ready.',            'bullets' => ['Thermostat & fan service', 'Compressor checks', 'Air duct service']],
+    'rooftop-air-conditioners'=> ['icon' => 'home',     'photo' => 'hero-service-truck', 'palt' => 'El Dorado service truck equipped for rooftop AC work in Naples',               'desc' => 'Install, repair, and maintenance for rooftop and commercial units.','bullets' => ['Commercial rooftop units', 'Leak & refrigerant checks', 'Scheduled maintenance']],
+    'ac-maintenance'          => ['icon' => 'wrench',   'photo' => 'tech-outdoor-unit', 'palt' => 'El Dorado technician performing AC maintenance on a Naples home',              'desc' => 'Annual plans that prevent breakdowns before the heat arrives.',    'bullets' => ['Seasonal inspections', 'Refrigerant & filter checks', 'Priority service']],
+    'ac-tune-ups'             => ['icon' => 'shield',   'photo' => 'fleet-trucks',      'palt' => 'El Dorado Heating & Cooling fleet parked and ready for tune-up calls',        'desc' => 'A quick tune-up that improves efficiency and lowers your bill.',   'bullets' => ['Coil cleaning', 'Refrigerant top-off', '5–15% efficiency gain']],
+    'air-filters'             => ['icon' => 'layers',   'photo' => 'team-fleet',        'palt' => 'El Dorado Heating & Cooling crew serving Naples homeowners',                   'desc' => 'Filter replacement that protects your system and your air.',       'bullets' => ['Furnace & AC filters', 'Right size, every time', 'Cleaner home air']],
+    'air-purifiers'           => ['icon' => 'leaf',     'photo' => 'hero-service-truck', 'palt' => 'El Dorado service truck stocked for indoor air-quality installs',              'desc' => 'Whole-home purification for cleaner, healthier indoor air.',       'bullets' => ['Whole-home systems', 'Allergen & odor control', 'Professional install']],
+    'dehumidifiers'           => ['icon' => 'droplets', 'photo' => 'tech-outdoor-unit', 'palt' => 'El Dorado technician working on humidity control at a Naples home',            'desc' => 'Whole-home humidity control for Florida comfort and air quality.', 'bullets' => ['Whole-home dehumidifiers', 'Mold & moisture control', 'Balanced comfort']],
+    'attic-fans'              => ['icon' => 'wind',     'photo' => 'fleet-trucks',      'palt' => 'El Dorado Heating & Cooling trucks on a Naples ventilation job',               'desc' => 'Attic ventilation that lowers heat load and cooling costs.',       'bullets' => ['Attic fan installs', 'Better ventilation', 'Lower cooling bills']],
+    'radiant-barriers'        => ['icon' => 'shield',   'photo' => 'team-fleet',        'palt' => 'El Dorado Heating & Cooling team ready for an energy-efficiency install',     'desc' => 'Reflective barriers that block attic heat before it enters.',      'bullets' => ['Reflects radiant heat', 'Cooler upstairs rooms', 'Lower energy use']],
+    'energy-audits'           => ['icon' => 'gauge',    'photo' => 'hero-service-truck', 'palt' => 'El Dorado service truck arriving for a Naples home energy audit',             'desc' => 'A full assessment that pinpoints comfort and efficiency fixes.',    'bullets' => ['Whole-home assessment', 'Find efficiency losses', 'Lower utility bills']],
+];
+
 // ── Granular services catalog (name, slug, description, keywords) ──────────
 // Full offerings list; used for schema, internal linking, and copy reference.
 $services = [
