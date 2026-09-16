@@ -11,12 +11,12 @@
   "grade": "A",
   "score_pct": 96,
   "summary": {
-    "total": 240,
-    "passed": 216,
-    "failed": 17,
+    "total": 244,
+    "passed": 222,
+    "failed": 15,
     "warn": 7,
     "blockers_failed": 0,
-    "warnings_failed": 19
+    "warnings_failed": 18
   },
   "techniques_detected": [
     {
@@ -294,22 +294,22 @@
     {
       "status": "pass",
       "check": "External stylesheet",
-      "detail": "Linked to 1 external CSS file(s), 582 lines total",
+      "detail": "Linked to 1 external CSS file(s), 602 lines total",
       "file": "privacy-policy/index.php",
       "severity": "blocker",
       "expected": null,
-      "actual": "582",
+      "actual": "602",
       "fix_hint": "",
       "section": "PHP STANDARDS"
     },
     {
       "status": "pass",
       "check": "External stylesheet",
-      "detail": "Linked to 1 external CSS file(s), 582 lines total",
+      "detail": "Linked to 1 external CSS file(s), 602 lines total",
       "file": "terms/index.php",
       "severity": "blocker",
       "expected": null,
-      "actual": "582",
+      "actual": "602",
       "fix_hint": "",
       "section": "PHP STANDARDS"
     },
@@ -349,22 +349,22 @@
     {
       "status": "pass",
       "check": "External stylesheet",
-      "detail": "Linked to 1 external CSS file(s), 582 lines total",
+      "detail": "Linked to 1 external CSS file(s), 602 lines total",
       "file": "cookie-policy/index.php",
       "severity": "blocker",
       "expected": null,
-      "actual": "582",
+      "actual": "602",
       "fix_hint": "",
       "section": "PHP STANDARDS"
     },
     {
       "status": "pass",
       "check": "External stylesheet",
-      "detail": "Linked to 1 external CSS file(s), 582 lines total",
+      "detail": "Linked to 1 external CSS file(s), 602 lines total",
       "file": "accessibility/index.php",
       "severity": "blocker",
       "expected": null,
-      "actual": "582",
+      "actual": "602",
       "fix_hint": "",
       "section": "PHP STANDARDS"
     },
@@ -415,11 +415,11 @@
     {
       "status": "pass",
       "check": "External stylesheet",
-      "detail": "Linked to 1 external CSS file(s), 582 lines total",
+      "detail": "Linked to 1 external CSS file(s), 602 lines total",
       "file": "service-areas/naples/index.php",
       "severity": "blocker",
       "expected": null,
-      "actual": "582",
+      "actual": "602",
       "fix_hint": "",
       "section": "PHP STANDARDS"
     },
@@ -569,55 +569,55 @@
     {
       "status": "pass",
       "check": "External stylesheet",
-      "detail": "Linked to 1 external CSS file(s), 582 lines total",
+      "detail": "Linked to 1 external CSS file(s), 602 lines total",
       "file": "blog/hurricane-season-hvac-prep-florida/index.php",
       "severity": "blocker",
       "expected": null,
-      "actual": "582",
+      "actual": "602",
       "fix_hint": "",
       "section": "PHP STANDARDS"
     },
     {
       "status": "pass",
       "check": "Premium tier CSS bar",
-      "detail": "608 lines (26 inline + 582 external, need \u22650)",
+      "detail": "628 lines (26 inline + 602 external, need \u22650)",
       "file": "index.php",
       "severity": "blocker",
       "expected": "0",
-      "actual": "608",
+      "actual": "628",
       "fix_hint": "",
       "section": "PHP STANDARDS"
     },
     {
       "status": "pass",
       "check": "Premium tier CSS bar",
-      "detail": "605 lines (23 inline + 582 external, need \u22650)",
+      "detail": "625 lines (23 inline + 602 external, need \u22650)",
       "file": "about/index.php",
       "severity": "blocker",
       "expected": "0",
-      "actual": "605",
+      "actual": "625",
       "fix_hint": "",
       "section": "PHP STANDARDS"
     },
     {
       "status": "pass",
       "check": "Premium tier CSS bar",
-      "detail": "595 lines (13 inline + 582 external, need \u22650)",
+      "detail": "615 lines (13 inline + 602 external, need \u22650)",
       "file": "services/index.php",
       "severity": "blocker",
       "expected": "0",
-      "actual": "595",
+      "actual": "615",
       "fix_hint": "",
       "section": "PHP STANDARDS"
     },
     {
       "status": "pass",
       "check": "Premium tier CSS bar",
-      "detail": "650 lines (68 inline + 582 external, need \u22650)",
+      "detail": "670 lines (68 inline + 602 external, need \u22650)",
       "file": "contact/index.php",
       "severity": "blocker",
       "expected": "0",
-      "actual": "650",
+      "actual": "670",
       "fix_hint": "",
       "section": "PHP STANDARDS"
     },
@@ -1570,7 +1570,7 @@
     {
       "status": "pass",
       "check": "llms.txt content",
-      "detail": "144 lines",
+      "detail": "178 lines",
       "file": "",
       "severity": "warning",
       "expected": null,
@@ -1989,7 +1989,29 @@
       "status": "pass",
       "check": "Form consent checkbox",
       "detail": "",
+      "file": "about/index.php",
+      "severity": "warning",
+      "expected": null,
+      "actual": null,
+      "fix_hint": "",
+      "section": "COMPLIANCE & TRUST"
+    },
+    {
+      "status": "pass",
+      "check": "Form consent checkbox",
+      "detail": "",
       "file": "contact/index.php",
+      "severity": "warning",
+      "expected": null,
+      "actual": null,
+      "fix_hint": "",
+      "section": "COMPLIANCE & TRUST"
+    },
+    {
+      "status": "pass",
+      "check": "Form consent checkbox",
+      "detail": "",
+      "file": "faq/index.php",
       "severity": "warning",
       "expected": null,
       "actual": null,
@@ -2174,6 +2196,28 @@
     },
     {
       "status": "pass",
+      "check": "Form consent checkbox",
+      "detail": "",
+      "file": "blog/ac-repair-costs-naples-florida/index.php",
+      "severity": "warning",
+      "expected": null,
+      "actual": null,
+      "fix_hint": "",
+      "section": "COMPLIANCE & TRUST"
+    },
+    {
+      "status": "pass",
+      "check": "Form consent checkbox",
+      "detail": "",
+      "file": "blog/hurricane-season-hvac-prep-florida/index.php",
+      "severity": "warning",
+      "expected": null,
+      "actual": null,
+      "fix_hint": "",
+      "section": "COMPLIANCE & TRUST"
+    },
+    {
+      "status": "pass",
       "check": "Premium: blog posts",
       "detail": "2 post(s)",
       "file": "",
@@ -2230,7 +2274,7 @@
     {
       "status": "pass",
       "check": "Content H2 question ratio",
-      "detail": "115/146 content H2s are questions (79%; 16 CTA/label H2s exempt)",
+      "detail": "119/150 content H2s are questions (79%; 16 CTA/label H2s exempt)",
       "file": "",
       "severity": "blocker",
       "expected": null,
@@ -2241,7 +2285,7 @@
     {
       "status": "warn",
       "check": "Pages below 40% question-H2",
-      "detail": "4 page(s) under target: contact/index.php, blog/hurricane-season-hvac-prep-florida/index.php, index.php, about/index.php",
+      "detail": "3 page(s) under target: contact/index.php, blog/hurricane-season-hvac-prep-florida/index.php, index.php",
       "file": "",
       "severity": "warning",
       "expected": null,
@@ -2338,14 +2382,14 @@
       "section": "AEO SCHEMA"
     },
     {
-      "status": "fail",
+      "status": "pass",
       "check": "llms.txt complete",
-      "detail": "Missing sections: Business Information, Pages",
+      "detail": "",
       "file": "",
       "severity": "info",
       "expected": null,
       "actual": null,
-      "fix_hint": "Add missing sections to llms.txt",
+      "fix_hint": "",
       "section": "AEO CONTENT"
     },
     {
@@ -2637,7 +2681,7 @@
     {
       "status": "pass",
       "check": "Total page weight \u22641.5MB (static estimate)",
-      "detail": "~705KB uncompressed HTML+CSS+JS+fonts+images",
+      "detail": "~707KB uncompressed HTML+CSS+JS+fonts+images",
       "file": "",
       "severity": "warning",
       "expected": null,
@@ -2657,20 +2701,20 @@
       "section": "PERFORMANCE v6.3"
     },
     {
-      "status": "fail",
+      "status": "pass",
       "check": "CTA band form on blog/about/FAQ pages",
-      "detail": "4 page(s) without a mid-page form: about/index.php, faq/index.php, blog/ac-repair-costs-naples-florida/index.php, blog/hurricane-season-hvac-prep-florida/index.php",
+      "detail": "",
       "file": "",
       "severity": "warning",
       "expected": null,
       "actual": null,
-      "fix_hint": "<section class=\"cta-band\"> with the compact form after the first content section",
+      "fix_hint": "",
       "section": "PERFORMANCE v6.3"
     },
     {
       "status": "pass",
       "check": "Lighthouse mobile Performance \u226590",
-      "detail": "94 (runs [94, 94, 96]) \u2014 LCP 2.9s \u00b7 CLS 0.002 \u00b7 TBT 1ms \u00b7 344KB",
+      "detail": "94 (runs [89, 94, 94]) \u2014 LCP 3.0s \u00b7 CLS 0.002 \u00b7 TBT 75ms \u00b7 345KB",
       "file": "",
       "severity": "blocker",
       "expected": null,
@@ -2858,17 +2902,6 @@
     },
     {
       "status": "fail",
-      "check": "llms.txt complete",
-      "detail": "Missing sections: Business Information, Pages",
-      "file": "",
-      "severity": "info",
-      "expected": null,
-      "actual": null,
-      "fix_hint": "Add missing sections to llms.txt",
-      "section": "AEO CONTENT"
-    },
-    {
-      "status": "fail",
       "check": "Form input font-size \u226516px",
       "detail": "A form-control rule sets font-size below 16px \u2014 triggers iOS auto-zoom",
       "file": "",
@@ -2877,17 +2910,6 @@
       "actual": null,
       "fix_hint": "input, select, textarea { font-size: 1rem; } per design-system.md Part E",
       "section": "PERFORMANCE v6.2"
-    },
-    {
-      "status": "fail",
-      "check": "CTA band form on blog/about/FAQ pages",
-      "detail": "4 page(s) without a mid-page form: about/index.php, faq/index.php, blog/ac-repair-costs-naples-florida/index.php, blog/hurricane-season-hvac-prep-florida/index.php",
-      "file": "",
-      "severity": "warning",
-      "expected": null,
-      "actual": null,
-      "fix_hint": "<section class=\"cta-band\"> with the compact form after the first content section",
-      "section": "PERFORMANCE v6.3"
     },
     {
       "status": "fail",
@@ -2927,7 +2949,7 @@
     {
       "status": "warn",
       "check": "Pages below 40% question-H2",
-      "detail": "4 page(s) under target: contact/index.php, blog/hurricane-season-hvac-prep-florida/index.php, index.php, about/index.php",
+      "detail": "3 page(s) under target: contact/index.php, blog/hurricane-season-hvac-prep-florida/index.php, index.php",
       "file": "",
       "severity": "warning",
       "expected": null,
