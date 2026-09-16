@@ -49,7 +49,7 @@
                     <ul class="footer-menu">
                         <?php foreach ($serviceAreas as $footArea):
                             $areaSlug = getAreaSlug($footArea['city']);
-                            $areaPath = '/areas/' . $areaSlug . '/';
+                            $areaPath = '/service-areas/' . $areaSlug . '/';
                             $areaExists = is_dir($_SERVER['DOCUMENT_ROOT'] . $areaPath);
                         ?>
                         <li>

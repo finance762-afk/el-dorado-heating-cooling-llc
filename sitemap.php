@@ -1,133 +1,84 @@
 <?php
-/**
- * sitemap.php — Dynamic XML sitemap for El Dorado Heating & Cooling LLC.
- * Auto-generates from config.php arrays (service pages, areas) + blog-data.php registry.
- * Called via .htaccess: RewriteRule ^sitemap\.xml$ /sitemap.php [L]
- */
+// Set DOCUMENT_ROOT for CLI execution
+if (!isset($_SERVER['DOCUMENT_ROOT']) || empty($_SERVER['DOCUMENT_ROOT'])) {
+    $_SERVER['DOCUMENT_ROOT'] = __DIR__;
+}
 
-require_once __DIR__ . '/includes/config.php';
-require_once __DIR__ . '/includes/blog-data.php';
+require_once $_SERVER['DOCUMENT_ROOT'] . '/includes/config.php';
+require_once $_SERVER['DOCUMENT_ROOT'] . '/includes/functions.php';
+require_once $_SERVER['DOCUMENT_ROOT'] . '/includes/blog-data.php';
 
-header('Content-Type: application/xml; charset=UTF-8');
-echo '<?xml version="1.0" encoding="UTF-8"?>';
+header('Content-Type: application/xml; charset=utf-8');
+
+// ── Page Registry: Canonical list of all indexable URLs ──────────────────────
+// Priority: 1.0 = homepage, 0.9 = top-level pages, 0.8 = service pages,
+// 0.7 = service-area pages, 0.6 = blog posts, 0.3 = legal pages.
+// Changefreq: how often the page content typically changes.
+
+$pages = [
+    // ── Core Pages ─────────────────────────────────────────────────────────
+    ['loc' => $siteUrl . '/', 'lastmod' => '2026-09-16', 'changefreq' => 'weekly', 'priority' => '1.0'],
+    ['loc' => $siteUrl . '/services/', 'lastmod' => '2026-09-16', 'changefreq' => 'monthly', 'priority' => '0.9'],
+    ['loc' => $siteUrl . '/about/', 'lastmod' => '2026-09-16', 'changefreq' => 'monthly', 'priority' => '0.9'],
+    ['loc' => $siteUrl . '/contact/', 'lastmod' => '2026-09-16', 'changefreq' => 'monthly', 'priority' => '0.9'],
+    ['loc' => $siteUrl . '/blog/', 'lastmod' => '2026-09-16', 'changefreq' => 'weekly', 'priority' => '0.8'],
+    ['loc' => $siteUrl . '/service-areas/', 'lastmod' => '2026-09-16', 'changefreq' => 'monthly', 'priority' => '0.8'],
+];
+
+// ── Service Pages (from config.php $servicePages) ─────────────────────────
+foreach ($servicePages as $svc) {
+    $pages[] = [
+        'loc' => $siteUrl . '/services/' . $svc['slug'] . '/',
+        'lastmod' => '2026-09-16',
+        'changefreq' => 'monthly',
+        'priority' => '0.8',
+    ];
+}
+
+// ── Service Area Pages (from config.php $serviceAreas) ────────────────────
+foreach ($serviceAreas as $area) {
+    $slug = getAreaSlug($area['city']);
+    // Only add if the directory actually exists on disk
+    if (is_dir($_SERVER['DOCUMENT_ROOT'] . '/service-areas/' . $slug)) {
+        $pages[] = [
+            'loc' => $siteUrl . '/service-areas/' . $slug . '/',
+            'lastmod' => '2026-09-16',
+            'changefreq' => 'monthly',
+            'priority' => '0.7',
+        ];
+    }
+}
+
+// ── Blog Posts (from includes/blog-data.php $blogPosts) ───────────────────
+foreach ($blogPosts as $post) {
+    $pages[] = [
+        'loc' => $siteUrl . '/blog/' . $post['slug'] . '/',
+        'lastmod' => $post['dateISO'],
+        'changefreq' => 'yearly',
+        'priority' => '0.6',
+    ];
+}
+
+// ── Legal / Compliance Pages (lower priority, rarely change) ──────────────
+$legalPages = [
+    ['loc' => $siteUrl . '/privacy-policy/', 'lastmod' => '2026-09-16', 'changefreq' => 'yearly', 'priority' => '0.3'],
+    ['loc' => $siteUrl . '/terms/', 'lastmod' => '2026-09-16', 'changefreq' => 'yearly', 'priority' => '0.3'],
+    ['loc' => $siteUrl . '/cookie-policy/', 'lastmod' => '2026-09-16', 'changefreq' => 'yearly', 'priority' => '0.3'],
+    ['loc' => $siteUrl . '/accessibility/', 'lastmod' => '2026-09-16', 'changefreq' => 'yearly', 'priority' => '0.3'],
+];
+
+$pages = array_merge($pages, $legalPages);
+
+// ── Generate XML Sitemap ───────────────────────────────────────────────────
+echo '<?xml version="1.0" encoding="UTF-8"?>' . "\n";
 ?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-
-  <!-- Homepage -->
+<?php foreach ($pages as $page): ?>
   <url>
-    <loc><?php echo $siteUrl; ?>/</loc>
-    <lastmod><?php echo date('Y-m-d'); ?></lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
+    <loc><?php echo htmlspecialchars($page['loc']); ?></loc>
+    <lastmod><?php echo $page['lastmod']; ?></lastmod>
+    <changefreq><?php echo $page['changefreq']; ?></changefreq>
+    <priority><?php echo $page['priority']; ?></priority>
   </url>
-
-  <!-- Service Pages -->
-  <?php foreach ($servicePages as $svcPage): ?>
-  <url>
-    <loc><?php echo $siteUrl; ?>/services/<?php echo $svcPage['slug']; ?>/</loc>
-    <lastmod><?php echo date('Y-m-d'); ?></lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <?php endforeach; ?>
-
-  <!-- Service Areas Overview -->
-  <?php if ($tier === 'premium' && !empty($serviceAreas) && count($serviceAreas) > 1): ?>
-  <url>
-    <loc><?php echo $siteUrl; ?>/service-areas/</loc>
-    <lastmod><?php echo date('Y-m-d'); ?></lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <!-- Individual Service Area Pages -->
-  <?php foreach ($serviceAreas as $area):
-    $areaSlug = getAreaSlug($area['city']);
-    $areaDir = __DIR__ . '/service-areas/' . $areaSlug . '/index.php';
-    if (file_exists($areaDir)):
-  ?>
-  <url>
-    <loc><?php echo $siteUrl; ?>/service-areas/<?php echo $areaSlug; ?>/</loc>
-    <lastmod><?php echo date('Y-m-d'); ?></lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <?php endif; endforeach; ?>
-  <?php endif; ?>
-
-  <!-- Blog Index -->
-  <?php if ($tier === 'premium' && !empty($blogPosts)): ?>
-  <url>
-    <loc><?php echo $siteUrl; ?>/blog/</loc>
-    <lastmod><?php echo date('Y-m-d'); ?></lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-
-  <!-- Individual Blog Posts -->
-  <?php foreach ($blogPosts as $post): ?>
-  <url>
-    <loc><?php echo $siteUrl; ?>/blog/<?php echo $post['slug']; ?>/</loc>
-    <lastmod><?php echo date('Y-m-d', strtotime($post['dateISO'])); ?></lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <?php endforeach; ?>
-  <?php endif; ?>
-
-  <!-- About -->
-  <url>
-    <loc><?php echo $siteUrl; ?>/about/</loc>
-    <lastmod><?php echo date('Y-m-d'); ?></lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-
-  <!-- Contact -->
-  <url>
-    <loc><?php echo $siteUrl; ?>/contact/</loc>
-    <lastmod><?php echo date('Y-m-d'); ?></lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <!-- FAQ (Premium only) -->
-  <?php if ($tier === 'premium'): ?>
-  <url>
-    <loc><?php echo $siteUrl; ?>/faq/</loc>
-    <lastmod><?php echo date('Y-m-d'); ?></lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <?php endif; ?>
-
-  <!-- Legal/Compliance Pages -->
-  <url>
-    <loc><?php echo $siteUrl; ?>/privacy-policy/</loc>
-    <lastmod><?php echo date('Y-m-d'); ?></lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.3</priority>
-  </url>
-
-  <url>
-    <loc><?php echo $siteUrl; ?>/terms/</loc>
-    <lastmod><?php echo date('Y-m-d'); ?></lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.3</priority>
-  </url>
-
-  <url>
-    <loc><?php echo $siteUrl; ?>/cookie-policy/</loc>
-    <lastmod><?php echo date('Y-m-d'); ?></lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.3</priority>
-  </url>
-
-  <url>
-    <loc><?php echo $siteUrl; ?>/accessibility/</loc>
-    <lastmod><?php echo date('Y-m-d'); ?></lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.3</priority>
-  </url>
-
+<?php endforeach; ?>
 </urlset>

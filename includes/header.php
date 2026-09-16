@@ -40,7 +40,7 @@
                     <ul class="dropdown" role="menu" style="display:none">
                         <?php foreach ($serviceAreas as $navArea):
                             $areaSlug = getAreaSlug($navArea['city']);
-                            $areaPath = '/areas/' . $areaSlug . '/';
+                            $areaPath = '/service-areas/' . $areaSlug . '/';
                             $areaExists = is_dir($_SERVER['DOCUMENT_ROOT'] . $areaPath);
                         ?>
                         <li role="none">
@@ -109,7 +109,7 @@
                 <ul class="mobile-submenu">
                     <?php foreach ($serviceAreas as $navArea):
                         $areaSlug = getAreaSlug($navArea['city']);
-                        $areaPath = '/areas/' . $areaSlug . '/';
+                        $areaPath = '/service-areas/' . $areaSlug . '/';
                         $areaExists = is_dir($_SERVER['DOCUMENT_ROOT'] . $areaPath);
                     ?>
                     <li>
