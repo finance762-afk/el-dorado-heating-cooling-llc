@@ -1,0 +1,30 @@
+# robots.txt for El Dorado Heating & Cooling LLC
+# Generated: September 2026
+
+User-agent: *
+Allow: /
+Disallow: /includes/
+Disallow: /assets/js/
+Disallow: /thank-you.php
+
+# AI/LLM Bot Access
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+# Sitemaps
+Sitemap: https://el-dorado-heating-cooling-llc.com/sitemap.xml
