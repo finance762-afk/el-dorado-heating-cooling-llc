@@ -96,7 +96,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
 /* Expert — copy + photo, MERV callout */
 .af-expert__figure { border-radius: var(--radius-lg); overflow: hidden; box-shadow: var(--shadow-lg); margin: 0; }
 .af-expert__figure img { width: 100%; height: 100%; object-fit: cover; }
-.af-merv { display: grid; grid-template-columns: auto 1fr; gap: 1rem; align-items: center; background: var(--color-primary); color: #fff; border-radius: var(--radius); padding: 1rem 1.25rem; margin: 1rem 0 1.25rem; }
+.af-merv { display: grid; grid-template-columns: auto 1fr; gap: 1rem; align-items: center; background: var(--color-primary); color: var(--color-white); border-radius: var(--radius); padding: 1rem 1.25rem; margin: 1rem 0 1.25rem; }
 .af-merv b { font-family: var(--font-accent); font-size: 1.7rem; line-height: 1; color: var(--color-accent-bright); white-space: nowrap; }
 .af-merv span { font-size: 0.9rem; }
 .af-diffs { display: grid; gap: 0.9rem; }
@@ -134,7 +134,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
 .af-col--us li { color: var(--color-ink); }
 @media (max-width: 720px) { .af-compare__grid { grid-template-columns: 1fr; } }
 
-.af-cta .actions .link-call { color: #fff; }
+.af-cta .actions .link-call { color: var(--color-white); }
 .af-cta .actions .link-call svg { color: var(--color-accent-bright); }
 </style>
 
