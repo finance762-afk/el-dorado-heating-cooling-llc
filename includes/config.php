@@ -269,7 +269,7 @@ $formAction = 'https://db.pageone.cloud/functions/v1/leads/el-dorado-heating-coo
 
 // ── Assets ────────────────────────────────────────────────────────────────
 // framework.css cache-bust — SINGLE source of truth. Bump on every framework.css change.
-$cssVersion = '1';
+$cssVersion = '2';
 
 // ── Lead attribution (v6.3) — MUST be last. Sets first-touch cookie + p1_attribution_fields(). ──
 require_once __DIR__ . '/attribution.php';

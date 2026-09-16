@@ -491,6 +491,9 @@ body.menu-open .site-header { z-index: 960; } /* keep the bar (and the hamburger
 .consent a, .tcpa-consent a, .form-consent-item a { color: var(--color-primary); }
 .form-consent-fieldset { border: 0; margin: 0; padding: 0; }
 .form-consent-legend { font-size: .85rem; font-weight: 700; padding: 0; margin-bottom: .4rem; }
+.hero-consent { margin: .8rem 0; }
+.hero-consent .form-consent-item { margin: .35rem 0; }
+.hero-consent .consent-label { font-size: .75rem; line-height: 1.4; }
 .form-disclaimer { font-size: .78rem; color: var(--color-muted); }
 .next-steps { display: grid; gap: .9rem; margin: 1rem 0 0; padding: 0; list-style: none; counter-reset: ns; }
 /* block + absolute counter: with display:grid the bare text after <strong> became its own grid item in the 28px column (one word per line, suntec pilot 2026-09-08) */

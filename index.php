@@ -182,7 +182,20 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
                 <?php endforeach; ?>
               </select>
             </div>
-            <label class="consent"><input type="checkbox" name="terms_accepted" value="yes" required><span>I agree to the <a href="/terms/" target="_blank" rel="noopener">Terms</a> and <a href="/privacy-policy/" target="_blank" rel="noopener">Privacy Policy</a> and consent to be contacted. *</span></label>
+            <fieldset class="form-consent-fieldset hero-consent">
+              <label class="form-consent-item">
+                <input type="checkbox" name="email_opt_in" value="yes" class="consent-checkbox">
+                <span class="consent-label"><strong>Email updates (optional):</strong> Receive emails about my inquiry. I can unsubscribe anytime.</span>
+              </label>
+              <label class="form-consent-item">
+                <input type="checkbox" name="sms_opt_in" value="yes" class="consent-checkbox">
+                <span class="consent-label"><strong>SMS (optional):</strong> Receive text messages. Reply STOP to opt out. Consent is not required.</span>
+              </label>
+              <label class="form-consent-item form-consent-required">
+                <input type="checkbox" name="terms_accepted" value="yes" class="consent-checkbox" required>
+                <span class="consent-label">I agree to the <a href="/privacy-policy/">Privacy Policy</a> and <a href="/terms/">Terms</a>. <span class="required-star">*</span></span>
+              </label>
+            </fieldset>
             <button type="submit" class="btn btn-primary btn-block">Get my free estimate</button>
           </form>
         </aside>
