@@ -1,0 +1,916 @@
+{
+  "seo": {
+    "serp_context": null,
+    "target_radius": 30,
+    "primary_keyword": "hvac repair naples fl",
+    "secondary_keywords": [
+      "ac repair naples fl",
+      "air conditioning repair naples fl",
+      "hvac maintenance naples fl",
+      "air conditioning installation naples fl",
+      "emergency hvac repair naples fl",
+      "ac installation naples fl",
+      "ac tune up naples fl",
+      "heating repair naples fl",
+      "emergency ac repair naples fl",
+      "hvac ductwork repair naples fl",
+      "ac compressor repair naples fl",
+      "thermostat repair naples fl"
+    ]
+  },
+  "tier": "premium",
+  "email": "",
+  "pages": [
+    {
+      "slug": "hvac-services",
+      "type": "service_group",
+      "title": "HVAC Services in Naples, FL",
+      "sections": "hero, service_cards_grid, individual_service_details, process, cta",
+      "services": [
+        "Air Conditioning Repair",
+        "Air Conditioning Installation",
+        "Air Conditioning Replacement",
+        "Central Air Conditioning",
+        "Residential Air Conditioning",
+        "Cooling System Installation",
+        "Air Conditioner Parts",
+        "Window Air Conditioners",
+        "Wall Air Conditioners",
+        "Mobile Home Air Conditioning",
+        "Portable Air Conditioners",
+        "Heating Repair",
+        "Heating Installation",
+        "Central Heating Systems",
+        "Heating Equipment Repair",
+        "Heating Inspections",
+        "Temporary Heating",
+        "Gas Heating",
+        "Oil-to-Gas Furnace Conversion",
+        "Floor Heating",
+        "Custom Heating Systems",
+        "HVAC Installation",
+        "HVAC Maintenance",
+        "HVAC Repair",
+        "HVAC Ductwork"
+      ],
+      "primary_keyword": "oil-to-gas furnace conversion Naples FL"
+    },
+    {
+      "slug": "cleaning-services",
+      "type": "service_group",
+      "title": "Cleaning Services in Naples, FL",
+      "sections": "hero, service_cards_grid, individual_service_details, process, cta",
+      "services": [
+        "AC System Cleaning",
+        "Coil Cleaning",
+        "HVAC System Cleaning"
+      ],
+      "primary_keyword": "hvac system cleaning Naples FL"
+    },
+    {
+      "slug": "seasonal-services",
+      "type": "service_group",
+      "title": "Seasonal Services in Naples, FL",
+      "sections": "hero, service_cards_grid, individual_service_details, process, cta",
+      "services": [
+        "AC Compressor Service",
+        "Fan Coil Service",
+        "Thermostat Services",
+        "Heating & Cooling Service",
+        "Air Duct Services"
+      ],
+      "primary_keyword": "heating & cooling service Naples FL"
+    },
+    {
+      "slug": "rooftop-air-conditioners",
+      "type": "service",
+      "title": "Rooftop Air Conditioners in Naples, FL",
+      "sections": "hero, service_details, process, testimonials, cta",
+      "services": [
+        "Rooftop Air Conditioners"
+      ],
+      "primary_keyword": "rooftop air conditioners Naples FL"
+    },
+    {
+      "slug": "ac-maintenance",
+      "type": "service",
+      "title": "AC Maintenance in Naples, FL",
+      "sections": "hero, service_details, process, testimonials, cta",
+      "services": [
+        "AC Maintenance"
+      ],
+      "primary_keyword": "ac maintenance Naples FL"
+    },
+    {
+      "slug": "ac-tune-ups",
+      "type": "service",
+      "title": "AC Tune-Ups in Naples, FL",
+      "sections": "hero, service_details, process, testimonials, cta",
+      "services": [
+        "AC Tune-Ups"
+      ],
+      "primary_keyword": "ac tune-ups Naples FL"
+    },
+    {
+      "slug": "air-filters",
+      "type": "service",
+      "title": "Air Filters in Naples, FL",
+      "sections": "hero, service_details, process, testimonials, cta",
+      "services": [
+        "Air Filters"
+      ],
+      "primary_keyword": "air filters Naples FL"
+    },
+    {
+      "slug": "air-purifiers",
+      "type": "service",
+      "title": "Air Purifiers in Naples, FL",
+      "sections": "hero, service_details, process, testimonials, cta",
+      "services": [
+        "Air Purifiers"
+      ],
+      "primary_keyword": "air purifiers Naples FL"
+    },
+    {
+      "slug": "dehumidifiers",
+      "type": "service",
+      "title": "Dehumidifiers in Naples, FL",
+      "sections": "hero, service_details, process, testimonials, cta",
+      "services": [
+        "Dehumidifiers"
+      ],
+      "primary_keyword": "dehumidifiers Naples FL"
+    },
+    {
+      "slug": "attic-fans",
+      "type": "service",
+      "title": "Attic Fans in Naples, FL",
+      "sections": "hero, service_details, process, testimonials, cta",
+      "services": [
+        "Attic Fans"
+      ],
+      "primary_keyword": "attic fans Naples FL"
+    },
+    {
+      "slug": "radiant-barriers",
+      "type": "service",
+      "title": "Radiant Barriers in Naples, FL",
+      "sections": "hero, service_details, process, testimonials, cta",
+      "services": [
+        "Radiant Barriers"
+      ],
+      "primary_keyword": "radiant barriers Naples FL"
+    },
+    {
+      "slug": "energy-audits",
+      "type": "service",
+      "title": "Energy Audits in Naples, FL",
+      "sections": "hero, service_details, process, testimonials, cta",
+      "services": [
+        "Energy Audits"
+      ],
+      "primary_keyword": "energy audits Naples FL"
+    }
+  ],
+  "phone": "",
+  "assets": {
+    "logo": {
+      "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/el-dorado-heating-cooling-llc/logo/1789572555960-0ow3jl-o.png",
+      "storage_path": "el-dorado-heating-cooling-llc/logo/1789572555960-0ow3jl-o.png"
+    },
+    "images": [
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/el-dorado-heating-cooling-llc/logo/1789572555960-0ow3jl-o.png",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "logo",
+        "storage_path": "el-dorado-heating-cooling-llc/logo/1789572555960-0ow3jl-o.png",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/el-dorado-heating-cooling-llc/photos/1789572682373-kjiszq-unnamed.png",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "el-dorado-heating-cooling-llc/photos/1789572682373-kjiszq-unnamed.png",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/el-dorado-heating-cooling-llc/photos/1789572685662-d2omug-JtKl49ec6NJZUypgYWmAtTMp7VRi2iQogut_UXwuDooZey7pgkEuD912apLTXK3evACEkh08N64nemPYnAR9UZO3LuAUI4WBjoDe6N5-K_cYwQyvG2PkUiU06bPgy8E4IyxzV9UsWDjZYu34U0zZ3VwZRjLst_oaO_v11Lyfvj-nPJAej4j33kGxr8eWvH3V.jpg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "el-dorado-heating-cooling-llc/photos/1789572685662-d2omug-JtKl49ec6NJZUypgYWmAtTMp7VRi2iQogut_UXwuDooZey7pgkEuD912apLTXK3evACEkh08N64nemPYnAR9UZO3LuAUI4WBjoDe6N5-K_cYwQyvG2PkUiU06bPgy8E4IyxzV9UsWDjZYu34U0zZ3VwZRjLst_oaO_v11Lyfvj-nPJAej4j33kGxr8eWvH3V.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/el-dorado-heating-cooling-llc/photos/1789572688196-cons1m-Gemini_Generated_Image_ijlzqrijlzqrijlz.jpg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "el-dorado-heating-cooling-llc/photos/1789572688196-cons1m-Gemini_Generated_Image_ijlzqrijlzqrijlz.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/el-dorado-heating-cooling-llc/photos/1789572691346-ngq7ys-4976c800-24ac-43c0-8f9e-2bfbc23a37f4.jpg",
+        "page": "any",
+        "role": null,
+        "caption": "",
+        "context": "other",
+        "storage_path": "el-dorado-heating-cooling-llc/photos/1789572691346-ngq7ys-4976c800-24ac-43c0-8f9e-2bfbc23a37f4.jpg",
+        "quality_score": null
+      }
+    ],
+    "page_allocations": null,
+    "recommended_hero_image": {
+      "alt": "",
+      "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/el-dorado-heating-cooling-llc/logo/1789572555960-0ow3jl-o.png",
+      "context": "logo",
+      "quality_score": null
+    }
+  },
+  "design": {
+    "fonts": {},
+    "notes": "",
+    "style": "modern",
+    "colors": {
+      "accent": "#F2B544",
+      "primary": "#123B5D",
+      "secondary": "#3FA9E0",
+      "extracted_from_logo": true
+    },
+    "logo_analysis": {}
+  },
+  "domain": "el-dorado-heating-cooling-llc",
+  "phases": [
+    {
+      "name": "scaffold",
+      "phase": 1,
+      "status": "pending"
+    },
+    {
+      "name": "nav_footer_head",
+      "phase": 2,
+      "status": "pending"
+    },
+    {
+      "name": "homepage",
+      "phase": 3,
+      "status": "pending"
+    },
+    {
+      "name": "inner_pages",
+      "phase": 4,
+      "status": "pending"
+    },
+    {
+      "name": "seo_aeo_deploy",
+      "phase": 5,
+      "status": "pending"
+    }
+  ],
+  "address": {
+    "zip": "34117",
+    "city": "Naples",
+    "state": "FL",
+    "street": "420 2nd St SE"
+  },
+  "content": {
+    "usps": [],
+    "years": 7,
+    "insurance": "",
+    "description": "El Dorado Heating & Cooling LLC is a family-owned and operated HVAC company bringing over 60 years of combined experience to the Naples, Bonita Springs, and Marco Island communities. We pride ourselves on delivering the golden standard of customer service, understanding that your home's comfort is a top priority.\n\nOur comprehensive services span the full spectrum of HVAC solutions, including air conditioning and heating repair, system installation, routine maintenance, ductwork services, coil cleaning, and air purification. We also specialize in advanced solutions such as dehumidification and specialty cooling applications, including wine-cellar cooling. Additionally, we provide refrigeration services to meet diverse cooling needs.\n\nAvailable around the clock for emergency service, El Dorado Heating & Cooling is committed to keeping your home comfortable year-round. We proudly serve our community in both English and Spanish, ensuring accessible, professional service for all customers.",
+    "certifications": []
+  },
+  "reviews": [],
+  "tagline": "Your Climate's Greatest Treasure",
+  "industry": "hvac",
+  "services": [
+    {
+      "name": "Air Conditioning Repair",
+      "keywords": [
+        "air conditioning repair Naples FL",
+        "AC repair",
+        "emergency AC service",
+        "cooling system repair"
+      ],
+      "description": "Expert air conditioning repair services for broken or malfunctioning AC units. Same-day emergency service available throughout Naples, FL."
+    },
+    {
+      "name": "Air Conditioning Installation",
+      "keywords": [
+        "AC installation Naples FL",
+        "air conditioner installation",
+        "new cooling system",
+        "AC system setup"
+      ],
+      "description": "Professional AC installation by certified technicians for new units and replacements. Expert setup for optimal cooling performance in Naples, FL."
+    },
+    {
+      "name": "Air Conditioning Replacement",
+      "keywords": [
+        "air conditioning replacement Naples FL",
+        "AC unit replacement",
+        "upgrade air conditioner",
+        "system replacement"
+      ],
+      "description": "Replace your old AC unit with a new, energy-efficient model. Professional removal and installation service in Naples, FL."
+    },
+    {
+      "name": "Central Air Conditioning",
+      "keywords": [
+        "central air conditioning Naples FL",
+        "central AC system",
+        "whole home cooling",
+        "central air unit"
+      ],
+      "description": "Central air conditioning systems for whole-home cooling. Installation, repair, and maintenance of central AC units in Naples, FL."
+    },
+    {
+      "name": "Residential Air Conditioning",
+      "keywords": [
+        "residential air conditioning Naples FL",
+        "home AC service",
+        "house cooling system",
+        "residential HVAC"
+      ],
+      "description": "Complete residential AC services including installation, repair, and maintenance for homes throughout Naples, FL."
+    },
+    {
+      "name": "Cooling System Installation",
+      "keywords": [
+        "cooling system installation Naples FL",
+        "AC system installation",
+        "residential cooling",
+        "new cooling setup"
+      ],
+      "description": "Professional cooling system installation for new construction and replacements. Expert design and setup in Naples, FL."
+    },
+    {
+      "name": "AC Maintenance",
+      "keywords": [
+        "AC maintenance Naples FL",
+        "preventative maintenance",
+        "HVAC service plan",
+        "air conditioning maintenance"
+      ],
+      "description": "Regular AC maintenance keeps your system running efficiently and prevents costly breakdowns. Annual service plans available in Naples."
+    },
+    {
+      "name": "AC Tune-Ups",
+      "keywords": [
+        "AC tune-up Naples FL",
+        "seasonal maintenance",
+        "HVAC tune-up",
+        "air conditioning service"
+      ],
+      "description": "AC tune-up services ensure optimal performance and efficiency of your air conditioning system. Seasonal preparation available."
+    },
+    {
+      "name": "AC System Cleaning",
+      "keywords": [
+        "AC cleaning Naples FL",
+        "air conditioning cleaning",
+        "system cleaning",
+        "coil cleaning service"
+      ],
+      "description": "Professional AC system cleaning removes dirt and debris for improved efficiency and indoor air quality."
+    },
+    {
+      "name": "AC Compressor Service",
+      "keywords": [
+        "AC compressor service Naples FL",
+        "compressor repair",
+        "refrigerant service",
+        "compressor replacement"
+      ],
+      "description": "AC compressor repair and replacement services restore cooling performance to your air conditioning unit."
+    },
+    {
+      "name": "Coil Cleaning",
+      "keywords": [
+        "coil cleaning Naples FL",
+        "condenser coil service",
+        "evaporator cleaning",
+        "AC efficiency"
+      ],
+      "description": "Condenser and evaporator coil cleaning improves efficiency and extends the life of your AC system."
+    },
+    {
+      "name": "Fan Coil Service",
+      "keywords": [
+        "fan coil service Naples FL",
+        "air handler repair",
+        "fan coil maintenance",
+        "HVAC components"
+      ],
+      "description": "Fan coil unit maintenance, repair, and replacement for efficient heating and cooling in Naples properties."
+    },
+    {
+      "name": "Air Conditioner Parts",
+      "keywords": [
+        "AC parts Naples FL",
+        "air conditioner parts",
+        "replacement parts",
+        "HVAC components"
+      ],
+      "description": "Original and replacement parts for air conditioning units available for purchase and professional installation in Naples, FL."
+    },
+    {
+      "name": "Window Air Conditioners",
+      "keywords": [
+        "window air conditioner Naples FL",
+        "window AC installation",
+        "portable AC unit",
+        "apartment cooling"
+      ],
+      "description": "Installation, repair, and maintenance of window air conditioning units for homes and apartments in Naples, FL."
+    },
+    {
+      "name": "Wall Air Conditioners",
+      "keywords": [
+        "wall air conditioner Naples FL",
+        "ductless AC system",
+        "mini-split air conditioner",
+        "wall mounted cooling"
+      ],
+      "description": "Professional installation and repair of wall-mounted and ductless air conditioning units in Naples, FL."
+    },
+    {
+      "name": "Rooftop Air Conditioners",
+      "keywords": [
+        "rooftop air conditioner Naples FL",
+        "commercial AC",
+        "rooftop unit repair",
+        "commercial cooling"
+      ],
+      "description": "Rooftop AC unit installation, repair, and maintenance for commercial buildings and properties in Naples, FL."
+    },
+    {
+      "name": "Mobile Home Air Conditioning",
+      "keywords": [
+        "mobile home air conditioning Naples FL",
+        "manufactured home AC",
+        "trailer cooling",
+        "mobile home service"
+      ],
+      "description": "Specialized AC services for mobile homes and manufactured housing in Naples, FL and surrounding areas."
+    },
+    {
+      "name": "Portable Air Conditioners",
+      "keywords": [
+        "portable air conditioner Naples FL",
+        "moveable AC unit",
+        "temporary cooling",
+        "portable AC service"
+      ],
+      "description": "Installation and maintenance of portable air conditioning units for flexible cooling solutions in Naples."
+    },
+    {
+      "name": "Air Filters",
+      "keywords": [
+        "air filters Naples FL",
+        "furnace filters",
+        "AC filters",
+        "filter replacement service"
+      ],
+      "description": "High-quality air filter replacement and furnace filter services for improved air quality and system efficiency."
+    },
+    {
+      "name": "Thermostat Services",
+      "keywords": [
+        "thermostat service Naples FL",
+        "thermostat installation",
+        "smart thermostat",
+        "programmable thermostat"
+      ],
+      "description": "Thermostat installation, repair, and programming including smart thermostat upgrades in Naples, FL."
+    },
+    {
+      "name": "Heating Repair",
+      "keywords": [
+        "heating repair Naples FL",
+        "furnace repair",
+        "emergency heat service",
+        "heating system repair"
+      ],
+      "description": "Emergency heating repair services for broken furnaces and heating systems in Naples, FL."
+    },
+    {
+      "name": "Heating Installation",
+      "keywords": [
+        "heating installation Naples FL",
+        "furnace installation",
+        "new heat system",
+        "heating setup"
+      ],
+      "description": "Professional heating system installation by licensed technicians for new and replacement units in Naples, FL."
+    },
+    {
+      "name": "Central Heating Systems",
+      "keywords": [
+        "central heating Naples FL",
+        "central furnace",
+        "whole home heating",
+        "central heat system"
+      ],
+      "description": "Central heating installation, repair, and maintenance for whole-home comfort year-round in Naples, FL."
+    },
+    {
+      "name": "Heating Equipment Repair",
+      "keywords": [
+        "heating equipment repair Naples FL",
+        "furnace repair",
+        "boiler service",
+        "heat pump repair"
+      ],
+      "description": "Repair services for all types of heating equipment including furnaces, boilers, and heat pumps in Naples."
+    },
+    {
+      "name": "Heating Inspections",
+      "keywords": [
+        "heating inspection Naples FL",
+        "furnace inspection",
+        "heat system inspection",
+        "safety inspection"
+      ],
+      "description": "Annual heating system inspections ensure safety and efficiency of your furnace and heating system."
+    },
+    {
+      "name": "Heating & Cooling Service",
+      "keywords": [
+        "heating and cooling Naples FL",
+        "HVAC service",
+        "climate control",
+        "complete HVAC"
+      ],
+      "description": "Combined heating and cooling services for year-round comfort and climate control in Naples, FL homes."
+    },
+    {
+      "name": "Temporary Heating",
+      "keywords": [
+        "temporary heating Naples FL",
+        "emergency heat",
+        "portable heater",
+        "temporary HVAC solution"
+      ],
+      "description": "Temporary heating solutions for emergencies, construction projects, or special events in Naples, FL."
+    },
+    {
+      "name": "Gas Heating",
+      "keywords": [
+        "gas heating Naples FL",
+        "gas furnace",
+        "natural gas heat",
+        "gas heater service"
+      ],
+      "description": "Gas furnace installation, repair, and maintenance for efficient and reliable home heating in Naples, FL."
+    },
+    {
+      "name": "Oil-to-Gas Furnace Conversion",
+      "keywords": [
+        "oil to gas conversion Naples FL",
+        "furnace conversion",
+        "gas furnace upgrade",
+        "heating upgrade"
+      ],
+      "description": "Convert your oil furnace to an efficient gas heating system with expert installation and support."
+    },
+    {
+      "name": "Floor Heating",
+      "keywords": [
+        "floor heating Naples FL",
+        "radiant floor heat",
+        "hydronic heating",
+        "in-floor heating"
+      ],
+      "description": "Radiant floor heating installation and repair for comfortable, energy-efficient home heating in Naples, FL."
+    },
+    {
+      "name": "Custom Heating Systems",
+      "keywords": [
+        "custom heating Naples FL",
+        "custom heating system",
+        "specialized heating",
+        "bespoke HVAC"
+      ],
+      "description": "Custom heating system design and installation for unique residential and commercial properties in Naples."
+    },
+    {
+      "name": "HVAC Installation",
+      "keywords": [
+        "HVAC installation Naples FL",
+        "heating and cooling installation",
+        "system installation",
+        "new HVAC"
+      ],
+      "description": "Professional HVAC system installation for complete heating and cooling in Naples, FL."
+    },
+    {
+      "name": "HVAC Maintenance",
+      "keywords": [
+        "HVAC maintenance Naples FL",
+        "preventative maintenance",
+        "system maintenance",
+        "HVAC service plan"
+      ],
+      "description": "Regular HVAC maintenance plans keep your heating and cooling systems running efficiently year-round."
+    },
+    {
+      "name": "HVAC Repair",
+      "keywords": [
+        "HVAC repair Naples FL",
+        "heating and cooling repair",
+        "emergency HVAC",
+        "system repair"
+      ],
+      "description": "Expert HVAC repair for heating and cooling system problems in Naples, FL with emergency service available."
+    },
+    {
+      "name": "HVAC System Cleaning",
+      "keywords": [
+        "HVAC cleaning Naples FL",
+        "system cleaning",
+        "duct cleaning",
+        "HVAC maintenance"
+      ],
+      "description": "Complete HVAC system cleaning including ductwork and components for improved efficiency and air quality."
+    },
+    {
+      "name": "HVAC Ductwork",
+      "keywords": [
+        "HVAC ductwork Naples FL",
+        "ductwork installation",
+        "duct repair",
+        "air duct system"
+      ],
+      "description": "HVAC ductwork design, installation, repair, and maintenance for efficient air distribution in Naples, FL."
+    },
+    {
+      "name": "Air Duct Services",
+      "keywords": [
+        "air duct service Naples FL",
+        "duct cleaning",
+        "air duct cleaning",
+        "ductwork repair"
+      ],
+      "description": "Professional air duct cleaning, repair, and sealing services for improved indoor air quality in Naples, FL."
+    },
+    {
+      "name": "Air Purifiers",
+      "keywords": [
+        "air purifiers Naples FL",
+        "air purifier installation",
+        "indoor air quality",
+        "air filtration"
+      ],
+      "description": "Air purifier installation and maintenance for cleaner, healthier indoor air quality in Naples, FL homes."
+    },
+    {
+      "name": "Dehumidifiers",
+      "keywords": [
+        "dehumidifier service Naples FL",
+        "humidity control",
+        "dehumidifier installation",
+        "moisture control"
+      ],
+      "description": "Dehumidifier installation and service to control humidity levels for comfort and indoor air quality."
+    },
+    {
+      "name": "Attic Fans",
+      "keywords": [
+        "attic fan Naples FL",
+        "attic fan installation",
+        "ventilation fan",
+        "whole house fan"
+      ],
+      "description": "Attic fan installation and repair to improve ventilation and reduce cooling costs in Naples, FL homes."
+    },
+    {
+      "name": "Radiant Barriers",
+      "keywords": [
+        "radiant barrier Naples FL",
+        "radiant barrier installation",
+        "heat reflection",
+        "energy efficiency"
+      ],
+      "description": "Radiant barrier installation to reflect heat and reduce cooling costs in Naples, FL homes."
+    },
+    {
+      "name": "Energy Audits",
+      "keywords": [
+        "energy audit Naples FL",
+        "home energy audit",
+        "HVAC efficiency",
+        "energy efficiency assessment"
+      ],
+      "description": "Professional energy audits identify opportunities to improve efficiency and reduce utility bills in Naples, FL."
+    }
+  ],
+  "owner_name": "",
+  "client_slug": "el-dorado-heating-cooling-llc",
+  "form_action": "https://db.pageone.cloud/functions/v1/leads/el-dorado-heating-cooling-llc",
+  "github_repo": "",
+  "web_sources": [],
+  "company_name": "el-dorado-heating-cooling-llc",
+  "integrations": {
+    "geo": null,
+    "bbb_url": "https://www.bbb.org/us/fl/naples/profile/air-conditioning-contractor/el-dorado-heating-and-cooling-llc-0653-90407720",
+    "financing": null,
+    "accepts_sms": false,
+    "gbp_place_id": null,
+    "gbp_map_embed": null,
+    "directions_url": null,
+    "elfsight_embed": null,
+    "scheduling_url": null,
+    "review_request_url": null,
+    "certification_links": []
+  },
+  "service_areas": [
+    {
+      "zip": "34117",
+      "city": "",
+      "state": "FL",
+      "primary": true
+    }
+  ],
+  "address_public": true,
+  "business_hours": "Mon-Fri 8AM TO 5PM Sat-Sun 8AM-9PM",
+  "image_curation": null,
+  "research_brief": {
+    "gbp": null,
+    "brief": {
+      "faqs": [
+        {
+          "a": "We recommend twice-yearly tune-ups: once before cooling season (April) and once before the rare heating season. Florida's heat and humidity stress systems year-round, so regular maintenance prevents costly breakdowns and extends equipment life by 5+ years.",
+          "q": "How often should I have my AC serviced in Florida?"
+        },
+        {
+          "a": "Maintenance plans include seasonal inspections, filter changes, refrigerant checks, electrical testing, and coil cleaning. Members also receive priority scheduling, discounted repairs, and emergency service without after-hours fees.",
+          "q": "What's included in your maintenance plans?"
+        },
+        {
+          "a": "Yes, we're available 24/7 for emergencies. After-hours calls include a service charge, but it's waived for maintenance plan members. We'll diagnose the issue and provide transparent pricing before any work begins.",
+          "q": "Do you offer emergency service, and what are the fees?"
+        },
+        {
+          "a": "Absolutely. We'll audit your system, recommend efficient upgrades (programmable thermostats, duct sealing, system replacements), and explain the energy savings. Many customers see 15-30% reductions after optimization.",
+          "q": "Can you help me lower my energy bills?"
+        },
+        {
+          "a": "All technicians are EPA-certified, state-licensed, and carry full liability insurance. You can trust that your home and investment are in expert hands.",
+          "q": "Are your technicians licensed and insured?"
+        }
+      ],
+      "about_angle": "Position as local, trustworthy experts who understand Naples' unique climate challenges (humidity, salt air, extreme seasonal demand). Emphasize family-owned values, longevity in the market, technician training/certifications, and commitment to customer education about energy efficiency.",
+      "hero_headline": "Naples' Most Reliable AC Service — 24/7 Emergency Support",
+      "differentiators": [
+        "24/7 emergency AC service (critical in Naples' subtropical climate)",
+        "Local expertise in humidity and salt-air corrosion prevention specific to Southwest Florida",
+        "Preventative maintenance plans that reduce costly breakdowns during peak season",
+        "Transparent, flat-rate pricing with no surprise charges",
+        "Same-day service availability for emergency calls",
+        "EPA-certified technicians with ongoing training on latest systems",
+        "Specialization in both residential and light commercial HVAC"
+      ],
+      "hero_subheadline": "Expert heating and cooling repair, maintenance, and installation for Southwest Florida homes. Fast response, honest pricing, guaranteed comfort.",
+      "tone_recommendation": "Professional yet approachable — balance authority (credentials, expertise) with warmth and accessibility. Avoid jargon; explain technical concepts in plain language. Emphasize reliability, honesty, and local community knowledge. Avoid aggressive sales language; instead, position as the trusted advisor who educates customers on their options."
+    },
+    "competitors": [],
+    "generated_at": "2026-09-16T16:10:41.291Z",
+    "existing_site": null
+  },
+  "competitor_urls": [],
+  "phone_secondary": "",
+  "service_grouping": {
+    "cap": 16,
+    "tier": "premium",
+    "groups": [
+      {
+        "page": "HVAC Services",
+        "services": [
+          "Air Conditioning Repair",
+          "Air Conditioning Installation",
+          "Air Conditioning Replacement",
+          "Central Air Conditioning",
+          "Residential Air Conditioning",
+          "Cooling System Installation",
+          "Air Conditioner Parts",
+          "Window Air Conditioners",
+          "Wall Air Conditioners",
+          "Mobile Home Air Conditioning",
+          "Portable Air Conditioners",
+          "Heating Repair",
+          "Heating Installation",
+          "Central Heating Systems",
+          "Heating Equipment Repair",
+          "Heating Inspections",
+          "Temporary Heating",
+          "Gas Heating",
+          "Oil-to-Gas Furnace Conversion",
+          "Floor Heating",
+          "Custom Heating Systems",
+          "HVAC Installation",
+          "HVAC Maintenance",
+          "HVAC Repair",
+          "HVAC Ductwork"
+        ]
+      },
+      {
+        "page": "Cleaning Services",
+        "services": [
+          "AC System Cleaning",
+          "Coil Cleaning",
+          "HVAC System Cleaning"
+        ]
+      },
+      {
+        "page": "Seasonal Services",
+        "services": [
+          "AC Compressor Service",
+          "Fan Coil Service",
+          "Thermostat Services",
+          "Heating & Cooling Service",
+          "Air Duct Services"
+        ]
+      },
+      {
+        "page": "Rooftop Air Conditioners",
+        "solo": true,
+        "services": [
+          "Rooftop Air Conditioners"
+        ]
+      },
+      {
+        "page": "AC Maintenance",
+        "solo": true,
+        "services": [
+          "AC Maintenance"
+        ]
+      },
+      {
+        "page": "AC Tune-Ups",
+        "solo": true,
+        "services": [
+          "AC Tune-Ups"
+        ]
+      },
+      {
+        "page": "Air Filters",
+        "solo": true,
+        "services": [
+          "Air Filters"
+        ]
+      },
+      {
+        "page": "Air Purifiers",
+        "solo": true,
+        "services": [
+          "Air Purifiers"
+        ]
+      },
+      {
+        "page": "Dehumidifiers",
+        "solo": true,
+        "services": [
+          "Dehumidifiers"
+        ]
+      },
+      {
+        "page": "Attic Fans",
+        "solo": true,
+        "services": [
+          "Attic Fans"
+        ]
+      },
+      {
+        "page": "Radiant Barriers",
+        "solo": true,
+        "services": [
+          "Radiant Barriers"
+        ]
+      },
+      {
+        "page": "Energy Audits",
+        "solo": true,
+        "services": [
+          "Energy Audits"
+        ]
+      }
+    ],
+    "grouped_count": 12,
+    "original_count": 42
+  },
+  "lead_notification_email": "",
+  "lead_notification_phone": "",
+  "google_business_profile_url": ""
+}
