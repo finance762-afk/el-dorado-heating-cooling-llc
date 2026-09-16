@@ -19,7 +19,7 @@
     ]
   },
   "tier": "premium",
-  "email": "",
+  "email": "eldorado.heatingandcooling@gmail.com",
   "pages": [
     {
       "slug": "hvac-services",
@@ -172,13 +172,53 @@
       "primary_keyword": "energy audits Naples FL"
     }
   ],
-  "phone": "",
+  "phone": "12394046797",
   "assets": {
     "logo": {
       "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/el-dorado-heating-cooling-llc/logo/1789572555960-0ow3jl-o.png",
       "storage_path": "el-dorado-heating-cooling-llc/logo/1789572555960-0ow3jl-o.png"
     },
     "images": [
+      {
+        "alt": "White El Dorado Heating & Cooling LLC service truck parked in driveway with roof-mounted rack, Amana and Daikin logos visible on the side panel.",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/el-dorado-heating-cooling-llc/photos/1789572682373-kjiszq-unnamed.png",
+        "page": "services",
+        "role": null,
+        "caption": "El Dorado service truck ready for HVAC maintenance work",
+        "context": "equipment",
+        "storage_path": "el-dorado-heating-cooling-llc/photos/1789572682373-kjiszq-unnamed.png",
+        "quality_score": null
+      },
+      {
+        "alt": "HVAC technician in white work shirt installing filter or service component on outdoor air conditioning unit mounted on residential house with white vinyl siding.",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/el-dorado-heating-cooling-llc/photos/1789572685662-d2omug-JtKl49ec6NJZUypgYWmAtTMp7VRi2iQogut_UXwuDooZey7pgkEuD912apLTXK3evACEkh08N64nemPYnAR9UZO3LuAUI4WBjoDe6N5-K_cYwQyvG2PkUiU06bPgy8E4IyxzV9UsWDjZYu34U0zZ3VwZRjLst_oaO_v11Lyfvj-nPJAej4j33kGxr8eWvH3V.jpg",
+        "page": "gallery",
+        "role": null,
+        "caption": "Technician servicing outdoor HVAC unit on residential home",
+        "context": "work_project",
+        "storage_path": "el-dorado-heating-cooling-llc/photos/1789572685662-d2omug-JtKl49ec6NJZUypgYWmAtTMp7VRi2iQogut_UXwuDooZey7pgkEuD912apLTXK3evACEkh08N64nemPYnAR9UZO3LuAUI4WBjoDe6N5-K_cYwQyvG2PkUiU06bPgy8E4IyxzV9UsWDjZYu34U0zZ3VwZRjLst_oaO_v11Lyfvj-nPJAej4j33kGxr8eWvH3V.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "El Dorado Heating & Cooling crew of ten employees in work uniforms standing in front of service trucks with equipment, with palm and oak trees visible in the background.",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/el-dorado-heating-cooling-llc/photos/1789572688196-cons1m-Gemini_Generated_Image_ijlzqrijlzqrijlz.jpg",
+        "page": "about",
+        "role": null,
+        "caption": "El Dorado Heating & Cooling team with service vehicles",
+        "context": "team",
+        "storage_path": "el-dorado-heating-cooling-llc/photos/1789572688196-cons1m-Gemini_Generated_Image_ijlzqrijlzqrijlz.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "Three white service trucks with El Dorado Heating & Cooling branding parked in a lot with palm trees in background.",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/el-dorado-heating-cooling-llc/photos/1789572691346-ngq7ys-4976c800-24ac-43c0-8f9e-2bfbc23a37f4.jpg",
+        "page": "about",
+        "role": null,
+        "caption": "El Dorado Heating & Cooling service fleet lined up and ready for customer calls",
+        "context": "equipment",
+        "storage_path": "el-dorado-heating-cooling-llc/photos/1789572691346-ngq7ys-4976c800-24ac-43c0-8f9e-2bfbc23a37f4.jpg",
+        "quality_score": null
+      },
       {
         "alt": "",
         "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/el-dorado-heating-cooling-llc/logo/1789572555960-0ow3jl-o.png",
@@ -190,51 +230,61 @@
         "quality_score": null
       },
       {
-        "alt": "",
-        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/el-dorado-heating-cooling-llc/photos/1789572682373-kjiszq-unnamed.png",
-        "page": "any",
+        "alt": "Ten HVAC technicians wearing work uniforms standing and kneeling in front of El Dorado Heating & Cooling LLC service trucks with branded signage.",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/el-dorado-heating-cooling-llc/photos/1789575824715-uppaff-Gemini_Generated_Image_ijlzqrijlzqrijlz.jpg",
+        "page": "about",
         "role": null,
-        "caption": "",
-        "context": "other",
-        "storage_path": "el-dorado-heating-cooling-llc/photos/1789572682373-kjiszq-unnamed.png",
+        "caption": "El Dorado Heating & Cooling LLC team and service vehicles",
+        "context": "team",
+        "storage_path": "el-dorado-heating-cooling-llc/photos/1789575824715-uppaff-Gemini_Generated_Image_ijlzqrijlzqrijlz.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "Two white El Dorado Heating & Cooling service trucks parked outdoors with branded signage boards on their sides, palm trees and shade trees visible in background.",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/el-dorado-heating-cooling-llc/photos/1789575819804-85fcw1-4976c800-24ac-43c0-8f9e-2bfbc23a37f4.jpg",
+        "page": "services",
+        "role": null,
+        "caption": "El Dorado Heating & Cooling service fleet vehicles",
+        "context": "equipment",
+        "storage_path": "el-dorado-heating-cooling-llc/photos/1789575819804-85fcw1-4976c800-24ac-43c0-8f9e-2bfbc23a37f4.jpg",
+        "quality_score": null
+      },
+      {
+        "alt": "El Dorado Heating & Cooling LLC technician installing new filter on outdoor air conditioning condenser unit against white-sided residential home.",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/el-dorado-heating-cooling-llc/photos/1789575848485-la4wgc-JtKl49ec6NJZUypgYWmAtTMp7VRi2iQogut_UXwuDooZey7pgkEuD912apLTXK3evACEkh08N64nemPYnAR9UZO3LuAUI4WBjoDe6N5-K_cYwQyvG2PkUiU06bPgy8E4IyxzV9UsWDjZYu34U0zZ3VwZRjLst_oaO_v11Lyfvj-nPJAej4j33kGxr8eWvH3V.jpg",
+        "page": "services",
+        "role": null,
+        "caption": "HVAC technician installing AC condenser filter",
+        "context": "work_project",
+        "storage_path": "el-dorado-heating-cooling-llc/photos/1789575848485-la4wgc-JtKl49ec6NJZUypgYWmAtTMp7VRi2iQogut_UXwuDooZey7pgkEuD912apLTXK3evACEkh08N64nemPYnAR9UZO3LuAUI4WBjoDe6N5-K_cYwQyvG2PkUiU06bPgy8E4IyxzV9UsWDjZYu34U0zZ3VwZRjLst_oaO_v11Lyfvj-nPJAej4j33kGxr8eWvH3V.jpg",
         "quality_score": null
       },
       {
         "alt": "",
-        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/el-dorado-heating-cooling-llc/photos/1789572685662-d2omug-JtKl49ec6NJZUypgYWmAtTMp7VRi2iQogut_UXwuDooZey7pgkEuD912apLTXK3evACEkh08N64nemPYnAR9UZO3LuAUI4WBjoDe6N5-K_cYwQyvG2PkUiU06bPgy8E4IyxzV9UsWDjZYu34U0zZ3VwZRjLst_oaO_v11Lyfvj-nPJAej4j33kGxr8eWvH3V.jpg",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/el-dorado-heating-cooling-llc/logo/1789575772401-lu4ofc-o.png",
         "page": "any",
         "role": null,
         "caption": "",
-        "context": "other",
-        "storage_path": "el-dorado-heating-cooling-llc/photos/1789572685662-d2omug-JtKl49ec6NJZUypgYWmAtTMp7VRi2iQogut_UXwuDooZey7pgkEuD912apLTXK3evACEkh08N64nemPYnAR9UZO3LuAUI4WBjoDe6N5-K_cYwQyvG2PkUiU06bPgy8E4IyxzV9UsWDjZYu34U0zZ3VwZRjLst_oaO_v11Lyfvj-nPJAej4j33kGxr8eWvH3V.jpg",
+        "context": "logo",
+        "storage_path": "el-dorado-heating-cooling-llc/logo/1789575772401-lu4ofc-o.png",
         "quality_score": null
       },
       {
-        "alt": "",
-        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/el-dorado-heating-cooling-llc/photos/1789572688196-cons1m-Gemini_Generated_Image_ijlzqrijlzqrijlz.jpg",
-        "page": "any",
+        "alt": "White El Dorado Heating & Cooling service van parked in residential driveway with roof rack loaded with red materials and supplies.",
+        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/el-dorado-heating-cooling-llc/photos/1789575823144-7a5c5h-unnamed.png",
+        "page": "home",
         "role": null,
-        "caption": "",
-        "context": "other",
-        "storage_path": "el-dorado-heating-cooling-llc/photos/1789572688196-cons1m-Gemini_Generated_Image_ijlzqrijlzqrijlz.jpg",
-        "quality_score": null
-      },
-      {
-        "alt": "",
-        "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/el-dorado-heating-cooling-llc/photos/1789572691346-ngq7ys-4976c800-24ac-43c0-8f9e-2bfbc23a37f4.jpg",
-        "page": "any",
-        "role": null,
-        "caption": "",
-        "context": "other",
-        "storage_path": "el-dorado-heating-cooling-llc/photos/1789572691346-ngq7ys-4976c800-24ac-43c0-8f9e-2bfbc23a37f4.jpg",
+        "caption": "El Dorado service van equipped and ready for calls",
+        "context": "equipment",
+        "storage_path": "el-dorado-heating-cooling-llc/photos/1789575823144-7a5c5h-unnamed.png",
         "quality_score": null
       }
     ],
     "page_allocations": null,
     "recommended_hero_image": {
-      "alt": "",
-      "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/el-dorado-heating-cooling-llc/logo/1789572555960-0ow3jl-o.png",
-      "context": "logo",
+      "alt": "White El Dorado Heating & Cooling LLC service truck parked in driveway with roof-mounted rack, Amana and Daikin logos visible on the side panel.",
+      "url": "https://db.pageone.cloud/storage/v1/object/public/client-assets/el-dorado-heating-cooling-llc/photos/1789572682373-kjiszq-unnamed.png",
+      "context": "equipment",
       "quality_score": null
     }
   },
@@ -716,12 +766,12 @@
       "description": "Professional energy audits identify opportunities to improve efficiency and reduce utility bills in Naples, FL."
     }
   ],
-  "owner_name": "",
+  "owner_name": "alejandro garcia",
   "client_slug": "el-dorado-heating-cooling-llc",
   "form_action": "https://db.pageone.cloud/functions/v1/leads/el-dorado-heating-cooling-llc",
-  "github_repo": "",
+  "github_repo": "https://github.com/finance762-afk/el-dorado-heating-cooling-llc",
   "web_sources": [],
-  "company_name": "el-dorado-heating-cooling-llc",
+  "company_name": "El Dorado Heating & Cooling LLC",
   "integrations": {
     "geo": null,
     "bbb_url": "https://www.bbb.org/us/fl/naples/profile/air-conditioning-contractor/el-dorado-heating-and-cooling-llc-0653-90407720",
@@ -751,42 +801,40 @@
     "brief": {
       "faqs": [
         {
-          "a": "We recommend twice-yearly tune-ups: once before cooling season (April) and once before the rare heating season. Florida's heat and humidity stress systems year-round, so regular maintenance prevents costly breakdowns and extends equipment life by 5+ years.",
-          "q": "How often should I have my AC serviced in Florida?"
+          "a": "We recommend professional AC maintenance twice yearly in Southwest Florida—before cooling season (May) and before any potential winter use (November). Our humid, salty climate accelerates wear, and regular service prevents costly breakdowns during peak heat.",
+          "q": "How often should I have my AC system serviced in Florida?"
         },
         {
-          "a": "Maintenance plans include seasonal inspections, filter changes, refrigerant checks, electrical testing, and coil cleaning. Members also receive priority scheduling, discounted repairs, and emergency service without after-hours fees.",
-          "q": "What's included in your maintenance plans?"
+          "a": "Call us immediately for 24/7 emergency service. We offer same-day diagnosis and repair for most systems. In the meantime, close blinds, turn off heat-generating appliances, and stay in the coolest room until we arrive.",
+          "q": "What should I do if my air conditioner stops working during the hot season?"
         },
         {
-          "a": "Yes, we're available 24/7 for emergencies. After-hours calls include a service charge, but it's waived for maintenance plan members. We'll diagnose the issue and provide transparent pricing before any work begins.",
-          "q": "Do you offer emergency service, and what are the fees?"
+          "a": "Naples heat and humidity make AC systems work harder. A tune-up can improve efficiency by 5-15%. We'll check refrigerant levels, clean coils, and ensure your system isn't running longer than necessary—often saving hundreds on energy bills.",
+          "q": "Why is my electric bill so high during summer months?"
         },
         {
-          "a": "Absolutely. We'll audit your system, recommend efficient upgrades (programmable thermostats, duct sealing, system replacements), and explain the energy savings. Many customers see 15-30% reductions after optimization.",
-          "q": "Can you help me lower my energy bills?"
+          "a": "With proper maintenance, most AC systems last 12-15 years in our climate. Salt air and continuous cooling demand can shorten this. We'll assess your system's condition and help you plan for replacement before failure.",
+          "q": "How long do air conditioning systems typically last in Florida?"
         },
         {
-          "a": "All technicians are EPA-certified, state-licensed, and carry full liability insurance. You can trust that your home and investment are in expert hands.",
-          "q": "Are your technicians licensed and insured?"
+          "a": "Our plans include seasonal inspections, coil cleaning, refrigerant checks, filter changes, electrical connection testing, and priority service. Regular maintenance prevents 80% of AC emergencies and extends system life significantly.",
+          "q": "What's included in your preventive maintenance plans?"
         }
       ],
-      "about_angle": "Position as local, trustworthy experts who understand Naples' unique climate challenges (humidity, salt air, extreme seasonal demand). Emphasize family-owned values, longevity in the market, technician training/certifications, and commitment to customer education about energy efficiency.",
-      "hero_headline": "Naples' Most Reliable AC Service — 24/7 Emergency Support",
+      "about_angle": "Focus on local expertise and reliability—emphasize deep roots in Naples community, understanding of regional climate challenges (heat, humidity, salt air), emergency response capability, and commitment to keeping families comfortable in Florida's demanding climate. Position as the neighbor you can trust, not a corporate chain.",
+      "hero_headline": "Naples' Most Trusted HVAC Service for Year-Round Comfort",
       "differentiators": [
-        "24/7 emergency AC service (critical in Naples' subtropical climate)",
-        "Local expertise in humidity and salt-air corrosion prevention specific to Southwest Florida",
-        "Preventative maintenance plans that reduce costly breakdowns during peak season",
-        "Transparent, flat-rate pricing with no surprise charges",
-        "Same-day service availability for emergency calls",
-        "EPA-certified technicians with ongoing training on latest systems",
-        "Specialization in both residential and light commercial HVAC"
+        "Year-round emergency availability in high-heat climate with 24/7 service for emergency repairs",
+        "Specialization in humidity control and moisture management specific to Southwest Florida's tropical environment",
+        "Preventive maintenance programs designed for the region's demand for consistent cooling and air quality",
+        "Local expertise with properties that face salt-air corrosion and high cooling demands",
+        "Transparent pricing with same-day diagnosis and emergency response capability"
       ],
-      "hero_subheadline": "Expert heating and cooling repair, maintenance, and installation for Southwest Florida homes. Fast response, honest pricing, guaranteed comfort.",
-      "tone_recommendation": "Professional yet approachable — balance authority (credentials, expertise) with warmth and accessibility. Avoid jargon; explain technical concepts in plain language. Emphasize reliability, honesty, and local community knowledge. Avoid aggressive sales language; instead, position as the trusted advisor who educates customers on their options."
+      "hero_subheadline": "24/7 Emergency AC Repair & Professional Cooling Solutions for Your Home",
+      "tone_recommendation": "Professional yet approachable and reassuring—speak as a knowledgeable local expert who understands Naples' specific climate challenges, but avoid jargon. Be straightforward about costs and what customers can expect. Convey reliability and trustworthiness as a family business that prioritizes customer comfort and peace of mind."
     },
     "competitors": [],
-    "generated_at": "2026-09-16T16:10:41.291Z",
+    "generated_at": "2026-09-16T19:05:28.034Z",
     "existing_site": null
   },
   "competitor_urls": [],
@@ -910,7 +958,7 @@
     "grouped_count": 12,
     "original_count": 42
   },
-  "lead_notification_email": "",
-  "lead_notification_phone": "",
+  "lead_notification_email": "eldorado.heatingandcooling@gmail.com",
+  "lead_notification_phone": "12394046797",
   "google_business_profile_url": ""
 }
