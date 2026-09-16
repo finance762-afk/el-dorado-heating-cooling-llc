@@ -6,17 +6,17 @@
     "requires_blog": true
   },
   "site": "el-dorado-heating-cooling-llc",
-  "expected_slug": null,
-  "passed": false,
-  "grade": "F",
-  "score_pct": 94,
+  "expected_slug": "el-dorado-heating-cooling-llc",
+  "passed": true,
+  "grade": "A",
+  "score_pct": 96,
   "summary": {
-    "total": 236,
-    "passed": 209,
-    "failed": 20,
+    "total": 240,
+    "passed": 216,
+    "failed": 17,
     "warn": 7,
-    "blockers_failed": 4,
-    "warnings_failed": 18
+    "blockers_failed": 0,
+    "warnings_failed": 19
   },
   "techniques_detected": [
     {
@@ -294,22 +294,22 @@
     {
       "status": "pass",
       "check": "External stylesheet",
-      "detail": "Linked to 1 external CSS file(s), 577 lines total",
+      "detail": "Linked to 1 external CSS file(s), 582 lines total",
       "file": "privacy-policy/index.php",
       "severity": "blocker",
       "expected": null,
-      "actual": "577",
+      "actual": "582",
       "fix_hint": "",
       "section": "PHP STANDARDS"
     },
     {
       "status": "pass",
       "check": "External stylesheet",
-      "detail": "Linked to 1 external CSS file(s), 577 lines total",
+      "detail": "Linked to 1 external CSS file(s), 582 lines total",
       "file": "terms/index.php",
       "severity": "blocker",
       "expected": null,
-      "actual": "577",
+      "actual": "582",
       "fix_hint": "",
       "section": "PHP STANDARDS"
     },
@@ -349,22 +349,22 @@
     {
       "status": "pass",
       "check": "External stylesheet",
-      "detail": "Linked to 1 external CSS file(s), 577 lines total",
+      "detail": "Linked to 1 external CSS file(s), 582 lines total",
       "file": "cookie-policy/index.php",
       "severity": "blocker",
       "expected": null,
-      "actual": "577",
+      "actual": "582",
       "fix_hint": "",
       "section": "PHP STANDARDS"
     },
     {
       "status": "pass",
       "check": "External stylesheet",
-      "detail": "Linked to 1 external CSS file(s), 577 lines total",
+      "detail": "Linked to 1 external CSS file(s), 582 lines total",
       "file": "accessibility/index.php",
       "severity": "blocker",
       "expected": null,
-      "actual": "577",
+      "actual": "582",
       "fix_hint": "",
       "section": "PHP STANDARDS"
     },
@@ -415,11 +415,11 @@
     {
       "status": "pass",
       "check": "External stylesheet",
-      "detail": "Linked to 1 external CSS file(s), 577 lines total",
+      "detail": "Linked to 1 external CSS file(s), 582 lines total",
       "file": "service-areas/naples/index.php",
       "severity": "blocker",
       "expected": null,
-      "actual": "577",
+      "actual": "582",
       "fix_hint": "",
       "section": "PHP STANDARDS"
     },
@@ -569,55 +569,55 @@
     {
       "status": "pass",
       "check": "External stylesheet",
-      "detail": "Linked to 1 external CSS file(s), 577 lines total",
+      "detail": "Linked to 1 external CSS file(s), 582 lines total",
       "file": "blog/hurricane-season-hvac-prep-florida/index.php",
       "severity": "blocker",
       "expected": null,
-      "actual": "577",
+      "actual": "582",
       "fix_hint": "",
       "section": "PHP STANDARDS"
     },
     {
       "status": "pass",
       "check": "Premium tier CSS bar",
-      "detail": "603 lines (26 inline + 577 external, need \u22650)",
+      "detail": "608 lines (26 inline + 582 external, need \u22650)",
       "file": "index.php",
       "severity": "blocker",
       "expected": "0",
-      "actual": "603",
+      "actual": "608",
       "fix_hint": "",
       "section": "PHP STANDARDS"
     },
     {
       "status": "pass",
       "check": "Premium tier CSS bar",
-      "detail": "600 lines (23 inline + 577 external, need \u22650)",
+      "detail": "605 lines (23 inline + 582 external, need \u22650)",
       "file": "about/index.php",
       "severity": "blocker",
       "expected": "0",
-      "actual": "600",
+      "actual": "605",
       "fix_hint": "",
       "section": "PHP STANDARDS"
     },
     {
       "status": "pass",
       "check": "Premium tier CSS bar",
-      "detail": "590 lines (13 inline + 577 external, need \u22650)",
+      "detail": "595 lines (13 inline + 582 external, need \u22650)",
       "file": "services/index.php",
       "severity": "blocker",
       "expected": "0",
-      "actual": "590",
+      "actual": "595",
       "fix_hint": "",
       "section": "PHP STANDARDS"
     },
     {
       "status": "pass",
       "check": "Premium tier CSS bar",
-      "detail": "645 lines (68 inline + 577 external, need \u22650)",
+      "detail": "650 lines (68 inline + 582 external, need \u22650)",
       "file": "contact/index.php",
       "severity": "blocker",
       "expected": "0",
-      "actual": "645",
+      "actual": "650",
       "fix_hint": "",
       "section": "PHP STANDARDS"
     },
@@ -1866,8 +1866,8 @@
     },
     {
       "status": "pass",
-      "check": "Form action (lead endpoint)",
-      "detail": "Slug(s): el-dorado-heating-cooling-llc",
+      "check": "Form action (lead endpoint, correct slug)",
+      "detail": "Slug: el-dorado-heating-cooling-llc",
       "file": "",
       "severity": "blocker",
       "expected": null,
@@ -2206,14 +2206,14 @@
       "section": "PREMIUM TIER EXTRAS"
     },
     {
-      "status": "fail",
+      "status": "pass",
       "check": "Undefined CSS tokens",
-      "detail": "10 var() token(s) never defined: --fs-display, --fs-h4, --fs-h5, --fs-h6, --fs-lg, --fs-sm",
+      "detail": "",
       "file": "",
       "severity": "blocker",
       "expected": null,
       "actual": null,
-      "fix_hint": "Define them in framework.css :root (or use the alias block)",
+      "fix_hint": "",
       "section": "CSS CONTRACT"
     },
     {
@@ -2349,14 +2349,14 @@
       "section": "AEO CONTENT"
     },
     {
-      "status": "fail",
+      "status": "pass",
       "check": "Hero answer word count",
-      "detail": "30 words (expected 35-70)",
+      "detail": "44 words",
       "file": "",
       "severity": "blocker",
       "expected": null,
       "actual": null,
-      "fix_hint": "Adjust .hero-answer paragraph to 35-70 words",
+      "fix_hint": "",
       "section": "AEO CONTENT"
     },
     {
@@ -2415,14 +2415,14 @@
       "section": "PERFORMANCE v6.2"
     },
     {
-      "status": "fail",
+      "status": "pass",
       "check": "No runtime icon injection",
-      "detail": "data-lucide/createIcons found in: services/index.php, includes/functions.php, services/radiant-barriers/index.php, services/dehumidifiers/index.php, services/rooftop-air-conditioners/index.php",
+      "detail": "",
       "file": "",
       "severity": "blocker",
       "expected": null,
       "actual": null,
-      "fix_hint": "Inline the SVGs at build time from references/lucide-icons/ per performance-2026.md Part C / aeo-crawlability.md",
+      "fix_hint": "",
       "section": "PERFORMANCE v6.2"
     },
     {
@@ -2591,20 +2591,31 @@
       "section": "PERFORMANCE v6.3"
     },
     {
-      "status": "fail",
+      "status": "pass",
       "check": "FAQPage schema on every FAQ section",
-      "detail": "1 page(s) with a FAQ section but no FAQPage JSON-LD: 404.php",
+      "detail": "",
       "file": "",
       "severity": "blocker",
       "expected": null,
       "actual": null,
-      "fix_hint": "Emit FAQPage JSON-LD mirroring the visible Q/A (generateFAQSchema($faqs) in functions.php)",
+      "fix_hint": "",
+      "section": "PERFORMANCE v6.3"
+    },
+    {
+      "status": "pass",
+      "check": "sitemap.xml reachable",
+      "detail": "/sitemap.xml \u2192 404 on the preview host (no rewrite there), but /sitemap.php serves 27 <loc> entries \u2014 fine on Hostinger",
+      "file": "",
+      "severity": "blocker",
+      "expected": null,
+      "actual": null,
+      "fix_hint": "",
       "section": "PERFORMANCE v6.3"
     },
     {
       "status": "warn",
-      "check": "sitemap.xml reachable (needs --url)",
-      "detail": "Pass --url https://preview-<slug>.pageone.cloud (or the live domain) to fetch /sitemap.xml",
+      "check": "Preview host lacks the /sitemap.xml rewrite",
+      "detail": "Add to /etc/nginx/sites-available/preview: location = /sitemap.xml { try_files /sitemap.xml /sitemap.php; }",
       "file": "",
       "severity": "info",
       "expected": null,
@@ -2657,9 +2668,42 @@
       "section": "PERFORMANCE v6.3"
     },
     {
+      "status": "pass",
+      "check": "Lighthouse mobile Performance \u226590",
+      "detail": "94 (runs [94, 94, 96]) \u2014 LCP 2.9s \u00b7 CLS 0.002 \u00b7 TBT 1ms \u00b7 344KB",
+      "file": "",
+      "severity": "blocker",
+      "expected": null,
+      "actual": null,
+      "fix_hint": "",
+      "section": "PERFORMANCE v6.3"
+    },
+    {
+      "status": "fail",
+      "check": "Lighthouse mobile Accessibility \u226595",
+      "detail": "94 \u2014 failing audits: color-contrast, heading-order",
+      "file": "",
+      "severity": "warning",
+      "expected": null,
+      "actual": null,
+      "fix_hint": "Open the Lighthouse Accessibility audit list for https://preview-el-dorado-heating-cooling-llc.pageone.cloud",
+      "section": "PERFORMANCE v6.3"
+    },
+    {
+      "status": "pass",
+      "check": "Lighthouse mobile Best Practices \u226595",
+      "detail": "100",
+      "file": "",
+      "severity": "warning",
+      "expected": null,
+      "actual": null,
+      "fix_hint": "",
+      "section": "PERFORMANCE v6.3"
+    },
+    {
       "status": "warn",
-      "check": "Lighthouse mobile (needs --url)",
-      "detail": "Pass --url to run qa/lighthouse-mobile.mjs (Performance \u226590 FAIL, other categories \u226595 WARN)",
+      "check": "Lighthouse mobile SEO \u226595",
+      "detail": "61 on a preview host (X-Robots noindex + robots block depress the SEO category by design) \u2014 re-check on the live domain",
       "file": "",
       "severity": "info",
       "expected": null,
@@ -2803,17 +2847,6 @@
     },
     {
       "status": "fail",
-      "check": "Undefined CSS tokens",
-      "detail": "10 var() token(s) never defined: --fs-display, --fs-h4, --fs-h5, --fs-h6, --fs-lg, --fs-sm",
-      "file": "",
-      "severity": "blocker",
-      "expected": null,
-      "actual": null,
-      "fix_hint": "Define them in framework.css :root (or use the alias block)",
-      "section": "CSS CONTRACT"
-    },
-    {
-      "status": "fail",
       "check": "No carousel libraries",
       "detail": "Carousel JS found in: assets/js/main.js",
       "file": "",
@@ -2836,28 +2869,6 @@
     },
     {
       "status": "fail",
-      "check": "Hero answer word count",
-      "detail": "30 words (expected 35-70)",
-      "file": "",
-      "severity": "blocker",
-      "expected": null,
-      "actual": null,
-      "fix_hint": "Adjust .hero-answer paragraph to 35-70 words",
-      "section": "AEO CONTENT"
-    },
-    {
-      "status": "fail",
-      "check": "No runtime icon injection",
-      "detail": "data-lucide/createIcons found in: services/index.php, includes/functions.php, services/radiant-barriers/index.php, services/dehumidifiers/index.php, services/rooftop-air-conditioners/index.php",
-      "file": "",
-      "severity": "blocker",
-      "expected": null,
-      "actual": null,
-      "fix_hint": "Inline the SVGs at build time from references/lucide-icons/ per performance-2026.md Part C / aeo-crawlability.md",
-      "section": "PERFORMANCE v6.2"
-    },
-    {
-      "status": "fail",
       "check": "Form input font-size \u226516px",
       "detail": "A form-control rule sets font-size below 16px \u2014 triggers iOS auto-zoom",
       "file": "",
@@ -2869,17 +2880,6 @@
     },
     {
       "status": "fail",
-      "check": "FAQPage schema on every FAQ section",
-      "detail": "1 page(s) with a FAQ section but no FAQPage JSON-LD: 404.php",
-      "file": "",
-      "severity": "blocker",
-      "expected": null,
-      "actual": null,
-      "fix_hint": "Emit FAQPage JSON-LD mirroring the visible Q/A (generateFAQSchema($faqs) in functions.php)",
-      "section": "PERFORMANCE v6.3"
-    },
-    {
-      "status": "fail",
       "check": "CTA band form on blog/about/FAQ pages",
       "detail": "4 page(s) without a mid-page form: about/index.php, faq/index.php, blog/ac-repair-costs-naples-florida/index.php, blog/hurricane-season-hvac-prep-florida/index.php",
       "file": "",
@@ -2887,6 +2887,17 @@
       "expected": null,
       "actual": null,
       "fix_hint": "<section class=\"cta-band\"> with the compact form after the first content section",
+      "section": "PERFORMANCE v6.3"
+    },
+    {
+      "status": "fail",
+      "check": "Lighthouse mobile Accessibility \u226595",
+      "detail": "94 \u2014 failing audits: color-contrast, heading-order",
+      "file": "",
+      "severity": "warning",
+      "expected": null,
+      "actual": null,
+      "fix_hint": "Open the Lighthouse Accessibility audit list for https://preview-el-dorado-heating-cooling-llc.pageone.cloud",
       "section": "PERFORMANCE v6.3"
     }
   ],
@@ -2948,8 +2959,8 @@
     },
     {
       "status": "warn",
-      "check": "sitemap.xml reachable (needs --url)",
-      "detail": "Pass --url https://preview-<slug>.pageone.cloud (or the live domain) to fetch /sitemap.xml",
+      "check": "Preview host lacks the /sitemap.xml rewrite",
+      "detail": "Add to /etc/nginx/sites-available/preview: location = /sitemap.xml { try_files /sitemap.xml /sitemap.php; }",
       "file": "",
       "severity": "info",
       "expected": null,
@@ -2959,8 +2970,8 @@
     },
     {
       "status": "warn",
-      "check": "Lighthouse mobile (needs --url)",
-      "detail": "Pass --url to run qa/lighthouse-mobile.mjs (Performance \u226590 FAIL, other categories \u226595 WARN)",
+      "check": "Lighthouse mobile SEO \u226595",
+      "detail": "61 on a preview host (X-Robots noindex + robots block depress the SEO category by design) \u2014 re-check on the live domain",
       "file": "",
       "severity": "info",
       "expected": null,

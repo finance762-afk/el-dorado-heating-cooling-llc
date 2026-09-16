@@ -84,7 +84,7 @@
   --fs-h6: clamp(.9rem, .85rem + .18vw, 1rem);
   --fs-lead: clamp(1.05rem, .95rem + .35vw, 1.2rem);
   --fs-body: 1rem; --fs-small: .875rem; --fs-eyebrow: .78rem;
-  --fs-lg: 1.125rem; --fs-sm: .875rem;
+  --fs-lg: 1.125rem; --fs-sm: .875rem; --fs-xs: .75rem;
   --font-size-xs: .75rem; --font-size-sm: .875rem; --font-size-base: 1rem; --font-size-lg: 1.125rem;
   --font-size-xl: 1.25rem; --font-size-2xl: var(--fs-h3); --font-size-3xl: var(--fs-h2); --font-size-4xl: var(--fs-h1);
   --font-size-5xl: var(--fs-h1); --font-size-6xl: var(--fs-h1);
@@ -96,8 +96,8 @@
   --section-pad: clamp(3.5rem, 7vw, 6rem); --section-pad-mobile: 3rem;
   --space-1: .25rem; --space-2: .5rem; --space-3: .75rem; --space-4: 1rem; --space-5: 1.25rem; --space-6: 1.5rem;
   --space-8: 2rem; --space-10: 2.5rem; --space-12: 3rem; --space-16: 4rem;
-  --space-xs: .5rem; --space-sm: .75rem; --space-md: 1rem; --space-lg: 1.5rem; --space-xl: 2rem; --space-2xl: 3rem; --space-3xl: 4rem; --space-4xl: 6rem;
-  --radius-sm: 4px; --radius: 8px; --radius-md: 8px; --radius-lg: 14px; --radius-xl: 20px; --radius-full: 999px;
+  --space-3xs: .125rem; --space-2xs: .25rem; --space-xs: .5rem; --space-sm: .75rem; --space-md: 1rem; --space-lg: 1.5rem; --space-xl: 2rem; --space-2xl: 3rem; --space-3xl: 4rem; --space-4xl: 6rem;
+  --radius-sm: 4px; --radius: 8px; --radius-md: 8px; --radius-lg: 14px; --radius-xl: 20px; --radius-full: 999px; --radius-pill: 999px;
   --shadow-sm: 0 1px 2px rgba(0,0,0,.06); --shadow: 0 8px 24px -12px rgba(0,0,0,.28); --shadow-md: var(--shadow);
   --shadow-lg: 0 24px 48px -20px rgba(0,0,0,.35); --shadow-xl: var(--shadow-lg); --shadow-card: var(--shadow);
   --ease: cubic-bezier(.2,.7,.2,1); --transition: .2s var(--ease); --transition-fast: .12s var(--ease); --transition-base: .2s var(--ease); --transition-slow: .45s var(--ease);
