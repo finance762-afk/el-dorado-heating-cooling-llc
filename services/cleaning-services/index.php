@@ -138,7 +138,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
 .svc-diffs b { display: block; }
 .svc-diffs p { margin: 0.1rem 0 0; font-size: 0.92rem; color: var(--color-ink-2); }
 
-.svc-cta .actions .link-call { color: #fff; }
+.svc-cta .actions .link-call { color: var(--color-white); }
 .svc-cta .actions .link-call svg { color: var(--color-accent-bright); }
 </style>
 

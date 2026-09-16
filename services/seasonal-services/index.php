@@ -124,42 +124,42 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
 
 <style>
 /* ===== Seasonal Services page composition (tokens only) ===== */
-.svc-hero { padding-top: 0.75rem; }
-.svc-hero .hero-chips { margin-top: 0.4rem; }
+.ss-hero { padding-top: 0.75rem; }
+.ss-hero .hero-chips { margin-top: 0.4rem; }
 
 /* Sub-service detail alternating rows */
-.clean-detail__row { display: grid; grid-template-columns: 88px 1fr; gap: 1.25rem; align-items: start; padding: 1.6rem 0; border-top: 1px solid var(--color-line); }
-.clean-detail__row:first-of-type { border-top: 0; }
-.clean-detail__badge { width: 88px; height: 88px; border-radius: var(--radius-lg); display: grid; place-items: center; color: var(--color-primary); background: color-mix(in srgb, var(--color-secondary) 15%, transparent); }
-.clean-detail__badge svg { width: 34px; height: 34px; }
-.clean-detail__row h3 { font-size: 1.2rem; margin-bottom: 0.35rem; }
-.clean-detail__row p { margin: 0; color: var(--color-ink-2); max-width: 60ch; }
-.clean-detail__tags { display: flex; flex-wrap: wrap; gap: 0.4rem; margin-top: 0.7rem; }
-.clean-detail__tags span { font-family: var(--font-accent); font-size: 0.72rem; letter-spacing: 0.06em; text-transform: uppercase; color: var(--color-accent-dark); background: color-mix(in srgb, var(--color-accent) 16%, transparent); padding: 0.25rem 0.6rem; border-radius: var(--radius-full); }
-@media (max-width: 640px) { .clean-detail__row { grid-template-columns: 1fr; } .clean-detail__badge { width: 64px; height: 64px; } }
+.ss-detail__row { display: grid; grid-template-columns: 88px 1fr; gap: 1.25rem; align-items: start; padding: 1.6rem 0; border-top: 1px solid var(--color-line); }
+.ss-detail__row:first-of-type { border-top: 0; }
+.ss-detail__badge { width: 88px; height: 88px; border-radius: var(--radius-lg); display: grid; place-items: center; color: var(--color-primary); background: color-mix(in srgb, var(--color-secondary) 15%, transparent); }
+.ss-detail__badge svg { width: 34px; height: 34px; }
+.ss-detail__row h3 { font-size: 1.2rem; margin-bottom: 0.35rem; }
+.ss-detail__row p { margin: 0; color: var(--color-ink-2); max-width: 60ch; }
+.ss-detail__tags { display: flex; flex-wrap: wrap; gap: 0.4rem; margin-top: 0.7rem; }
+.ss-detail__tags span { font-family: var(--font-accent); font-size: 0.72rem; letter-spacing: 0.06em; text-transform: uppercase; color: var(--color-accent-dark); background: color-mix(in srgb, var(--color-accent) 16%, transparent); padding: 0.25rem 0.6rem; border-radius: var(--radius-full); }
+@media (max-width: 640px) { .ss-detail__row { grid-template-columns: 1fr; } .ss-detail__badge { width: 64px; height: 64px; } }
 
 /* Benefit strip */
-.clean-benefits { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1rem; margin-top: clamp(1.5rem, 3vw, 2.25rem); }
-.clean-benefit { background: var(--color-surface); border: 1px solid var(--color-line); border-radius: var(--radius-lg); padding: 1.4rem; display: grid; gap: 0.5rem; }
-.clean-benefit b { font-family: var(--font-accent); font-size: 1.9rem; line-height: 1; color: var(--color-primary); }
-.clean-benefit span { font-size: 0.92rem; color: var(--color-ink-2); }
-@media (max-width: 720px) { .clean-benefits { grid-template-columns: 1fr; } }
+.ss-benefits { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1rem; margin-top: clamp(1.5rem, 3vw, 2.25rem); }
+.ss-benefit { background: var(--color-surface); border: 1px solid var(--color-line); border-radius: var(--radius-lg); padding: 1.4rem; display: grid; gap: 0.5rem; }
+.ss-benefit b { font-family: var(--font-accent); font-size: 1.9rem; line-height: 1; color: var(--color-primary); }
+.ss-benefit span { font-size: 0.92rem; color: var(--color-ink-2); }
+@media (max-width: 720px) { .ss-benefits { grid-template-columns: 1fr; } }
 
 /* Trust split figure */
-.svc-figure { position: relative; border-radius: var(--radius-lg); overflow: hidden; box-shadow: var(--shadow-lg); margin: 0; }
-.svc-figure img { width: 100%; height: 100%; object-fit: cover; }
-.svc-diffs { display: grid; gap: 0.9rem; margin-top: 1.25rem; }
-.svc-diffs li { display: grid; grid-template-columns: 26px 1fr; gap: 0.7rem; align-items: start; }
-.svc-diffs svg { color: var(--color-secondary); margin-top: 2px; }
-.svc-diffs b { display: block; }
-.svc-diffs p { margin: 0.1rem 0 0; font-size: 0.92rem; color: var(--color-ink-2); }
+.ss-figure { position: relative; border-radius: var(--radius-lg); overflow: hidden; box-shadow: var(--shadow-lg); margin: 0; }
+.ss-figure img { width: 100%; height: 100%; object-fit: cover; }
+.ss-diffs { display: grid; gap: 0.9rem; margin-top: 1.25rem; }
+.ss-diffs li { display: grid; grid-template-columns: 26px 1fr; gap: 0.7rem; align-items: start; }
+.ss-diffs svg { color: var(--color-secondary); margin-top: 2px; }
+.ss-diffs b { display: block; }
+.ss-diffs p { margin: 0.1rem 0 0; font-size: 0.92rem; color: var(--color-ink-2); }
 
-.svc-cta .actions .link-call { color: var(--color-white); }
-.svc-cta .actions .link-call svg { color: var(--color-accent-bright); }
+.ss-cta .actions .link-call { color: var(--color-white); }
+.ss-cta .actions .link-call svg { color: var(--color-accent-bright); }
 </style>
 
 <!-- ============================= HERO ============================= -->
-<section class="hero hero--interior svc-hero" aria-label="Seasonal HVAC services in Naples, FL">
+<section class="hero hero--interior ss-hero" aria-label="Seasonal HVAC services in Naples, FL">
     <div class="container">
         <nav class="breadcrumb" aria-label="Breadcrumb" style="margin-bottom:1.25rem;font-size:.85rem;color:rgba(255,255,255,.72);">
             <a href="/" style="color:inherit;">Home</a> <span class="breadcrumb-sep">/</span>
@@ -211,10 +211,10 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
             <h2>What do El Dorado&rsquo;s seasonal HVAC services cover in Naples?</h2>
             <p class="answer-block">El Dorado Heating &amp; Cooling offers five seasonal services for Naples homes: compressor service, fan coil service, thermostat service, combined heating and cooling service, and air duct service. Each targets a component that wears faster under Southwest Florida&rsquo;s near-continuous cooling demand and salt-air exposure.</p>
         </div>
-        <div class="clean-benefits">
-            <div class="clean-benefit reveal-up"><b>2x</b><span>Recommended seasonal check-ins per year for coastal Collier County systems.</span></div>
-            <div class="clean-benefit reveal-up reveal-delay-1"><b>5&ndash;15%</b><span>Typical efficiency regained once a struggling compressor or blower is serviced.</span></div>
-            <div class="clean-benefit reveal-up reveal-delay-2"><b>Year-round</b><span>Naples runs cooling most months, so components wear on a faster clock here.</span></div>
+        <div class="ss-benefits">
+            <div class="ss-benefit reveal-up"><b>2x</b><span>Recommended seasonal check-ins per year for coastal Collier County systems.</span></div>
+            <div class="ss-benefit reveal-up reveal-delay-1"><b>5&ndash;15%</b><span>Typical efficiency regained once a struggling compressor or blower is serviced.</span></div>
+            <div class="ss-benefit reveal-up reveal-delay-2"><b>Year-round</b><span>Naples runs cooling most months, so components wear on a faster clock here.</span></div>
         </div>
     </div>
 </section>
@@ -264,12 +264,12 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
             <p class="answer-block">Each seasonal service targets a component with its own failure pattern in our climate. El Dorado Heating &amp; Cooling explains what we check, why it fails here specifically, and what a service visit catches before it becomes a breakdown.</p>
         </div>
         <?php foreach ($groupServices as $gs): ?>
-        <div class="clean-detail__row reveal-up">
-            <div class="clean-detail__badge"><?php echo $svg[$gs['icon']]; ?></div>
+        <div class="ss-detail__row reveal-up">
+            <div class="ss-detail__badge"><?php echo $svg[$gs['icon']]; ?></div>
             <div>
                 <h3><?php echo htmlspecialchars($gs['name']); ?></h3>
                 <p><?php echo $gs['detail']; ?></p>
-                <div class="clean-detail__tags">
+                <div class="ss-detail__tags">
                     <?php foreach ($gs['bullets'] as $b): ?><span><?php echo htmlspecialchars($b); ?></span><?php endforeach; ?>
                 </div>
             </div>
@@ -300,7 +300,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
     <span class="grain-layer" aria-hidden="true"></span>
     <div class="container">
         <div class="split">
-            <figure class="svc-figure reveal-left">
+            <figure class="ss-figure reveal-left">
                 <picture>
                     <source type="image/avif" srcset="/assets/images/hero-service-truck-480.avif 480w, /assets/images/hero-service-truck-960.avif 960w" sizes="(max-width: 900px) 100vw, 45vw">
                     <img src="/assets/images/hero-service-truck.jpg" srcset="/assets/images/hero-service-truck-480.webp 480w, /assets/images/hero-service-truck-960.webp 960w" sizes="(max-width: 900px) 100vw, 45vw" alt="El Dorado Heating &amp; Cooling service truck arriving for a seasonal visit in Naples, FL" width="960" height="720" loading="lazy" decoding="async">
@@ -310,7 +310,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
                 <span class="eyebrow-label">The Golden Standard</span>
                 <h2>Why do Naples homeowners trust El Dorado with seasonal service?</h2>
                 <p class="answer-block">El Dorado Heating &amp; Cooling is a licensed, family-owned Florida HVAC contractor based in Naples, serving Collier County in English and Spanish. We know which components fail first in coastal heat and humidity because we&rsquo;ve serviced Naples systems through every season, not a generic maintenance checklist.</p>
-                <ul class="svc-diffs">
+                <ul class="ss-diffs">
                     <li><?php echo $svg['check']; ?><div><b>Component-specific knowledge</b><p>We know the compressor, fan coil, and duct failure patterns unique to Southwest Florida.</p></div></li>
                     <li><?php echo $svg['check']; ?><div><b>Bilingual, local team</b><p>Family-owned since <?php echo $yearEstablished; ?>, the same crew returns season after season.</p></div></li>
                     <li><?php echo $svg['check']; ?><div><b>24/7 backup</b><p>If a serviced system ever acts up, we&rsquo;re a call away, any hour.</p></div></li>
@@ -345,7 +345,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
 <?php renderRelatedServices($serviceSlug); ?>
 
 <!-- ============================= FINAL CTA ============================= -->
-<section class="cta-banner on-dark texture-grain edge-wave-top svc-cta" aria-label="Schedule seasonal service">
+<section class="cta-banner on-dark texture-grain edge-wave-top ss-cta" aria-label="Schedule seasonal service">
     <span class="grain-layer" aria-hidden="true"></span>
     <div class="container">
         <div class="reveal-up">

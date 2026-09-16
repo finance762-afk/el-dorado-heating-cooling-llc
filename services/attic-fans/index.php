@@ -81,7 +81,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
 /* ===== Attic Fans page composition (tokens only) ===== */
 .atc-hero { padding-top: 0.75rem; }
 .atc-hero .hero-chips { margin-top: 0.4rem; }
-.atc-breadcrumb-nav { margin-bottom: 1.25rem; font-size: 0.85rem; color: rgba(255,255,255,0.72); }
+.atc-breadcrumb-nav { margin-bottom: 1.25rem; font-size: 0.85rem; color: color-mix(in srgb, var(--color-white) 72%, transparent); }
 
 /* Problem statement — big temperature stat beside a 2-up sign grid */
 .atc-signs { background: var(--color-paper-2); }
@@ -135,7 +135,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
 .atc-col--us li { color: var(--color-ink); }
 @media (max-width: 720px) { .atc-compare__grid { grid-template-columns: 1fr; } }
 
-.atc-cta .actions .link-call { color: #fff; }
+.atc-cta .actions .link-call { color: var(--color-white); }
 .atc-cta .actions .link-call svg { color: var(--color-accent-bright); }
 </style>
 

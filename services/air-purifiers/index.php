@@ -80,7 +80,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
 /* ===== Air Purifiers page composition (tokens only) ===== */
 .iaq-hero { padding-top: 0.75rem; }
 .iaq-hero .hero-chips { margin-top: 0.4rem; }
-.iaq-breadcrumb-nav { margin-bottom: 1.25rem; font-size: 0.85rem; color: rgba(255,255,255,0.72); }
+.iaq-breadcrumb-nav { margin-bottom: 1.25rem; font-size: 0.85rem; color: color-mix(in srgb, var(--color-white) 72%, transparent); }
 
 /* Problem statement — banner lead over a 3-across contaminant row */
 .iaq-signs { background: var(--color-paper-2); }
@@ -130,7 +130,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
 .iaq-col--us li { color: var(--color-ink); }
 @media (max-width: 720px) { .iaq-compare__grid { grid-template-columns: 1fr; } }
 
-.iaq-cta .actions .link-call { color: #fff; }
+.iaq-cta .actions .link-call { color: var(--color-white); }
 .iaq-cta .actions .link-call svg { color: var(--color-accent-bright); }
 </style>
 

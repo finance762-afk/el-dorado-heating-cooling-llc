@@ -81,7 +81,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
 /* ===== Dehumidifiers page composition (tokens only) ===== */
 .hum-hero { padding-top: 0.75rem; }
 .hum-hero .hero-chips { margin-top: 0.4rem; }
-.hum-breadcrumb-nav { margin-bottom: 1.25rem; font-size: 0.85rem; color: rgba(255,255,255,0.72); }
+.hum-breadcrumb-nav { margin-bottom: 1.25rem; font-size: 0.85rem; color: color-mix(in srgb, var(--color-white) 72%, transparent); }
 
 /* Problem statement — centered lead over stacked horizontal sign rows */
 .hum-signs { background: var(--color-paper-2); }
@@ -126,7 +126,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
 .hum-col--us li { color: var(--color-ink); }
 @media (max-width: 720px) { .hum-compare__grid { grid-template-columns: 1fr; } }
 
-.hum-cta .actions .link-call { color: #fff; }
+.hum-cta .actions .link-call { color: var(--color-white); }
 .hum-cta .actions .link-call svg { color: var(--color-accent-bright); }
 </style>
 

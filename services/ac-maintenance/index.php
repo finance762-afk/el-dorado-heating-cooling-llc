@@ -79,7 +79,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
 <style>
 /* ===== AC Maintenance page composition (tokens only) ===== */
 .svc-breadcrumb { padding: calc(var(--nav-height) + 0.9rem) 0 0; }
-.svc-breadcrumb .breadcrumb { font-size: 0.85rem; color: rgba(255,255,255,0.7); }
+.svc-breadcrumb .breadcrumb { font-size: 0.85rem; color: color-mix(in srgb, var(--color-white) 70%, transparent); }
 .svc-hero { padding-top: 0.75rem; }
 .svc-hero .hero-chips { margin-top: 0.4rem; }
 
@@ -126,7 +126,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
 @media (max-width: 720px) { .svc-compare__grid { grid-template-columns: 1fr; } }
 
 /* Final CTA */
-.svc-cta .actions .link-call { color: #fff; }
+.svc-cta .actions .link-call { color: var(--color-white); }
 .svc-cta .actions .link-call svg { color: var(--color-accent-bright); }
 </style>
 

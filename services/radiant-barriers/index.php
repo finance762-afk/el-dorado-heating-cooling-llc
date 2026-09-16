@@ -8,7 +8,7 @@ $serviceSlug     = 'radiant-barriers';
 $pageType        = 'service';
 $currentPage     = 'services';
 $ogType          = 'website';
-$pageTitle       = 'Radiant Barriers Naples FL | El Dorado Heating & Cooling LLC';
+$pageTitle       = 'Radiant Barrier Installation Naples FL | El Dorado Heating & Cooling LLC';
 $metaDescription = 'Radiant barrier installation in Naples, FL from El Dorado Heating & Cooling. Reflect attic heat before it enters your home and lower cooling bills. Call (239) 404-6797.';
 $canonicalUrl    = $siteUrl . '/services/radiant-barriers/';
 
@@ -82,62 +82,62 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
 
 <style>
 /* ===== Radiant Barriers page composition (tokens only) ===== */
-.svc-breadcrumb { padding: calc(var(--nav-height) + 0.9rem) 0 0; }
-.svc-breadcrumb .breadcrumb { font-size: 0.85rem; color: rgba(255,255,255,0.7); }
-.svc-hero { padding-top: 0.75rem; }
-.svc-hero .hero-chips { margin-top: 0.4rem; }
+.rb-breadcrumb { padding: calc(var(--nav-height) + 0.9rem) 0 0; }
+.rb-breadcrumb .breadcrumb { font-size: 0.85rem; color: color-mix(in srgb, var(--color-white) 70%, transparent); }
+.rb-hero { padding-top: 0.75rem; }
+.rb-hero .hero-chips { margin-top: 0.4rem; }
 
 /* Problem statement — pull-quote + telltale signs */
-.svc-signs { background: var(--color-paper-2); }
-.svc-signs__lead { display: grid; grid-template-columns: 1.1fr 1fr; gap: clamp(1.5rem, 4vw, 3.5rem); align-items: center; }
-.svc-signs__cards { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; margin-top: clamp(1.5rem, 3vw, 2.25rem); }
-.sign-card { background: var(--color-surface); border: 1px solid var(--color-line); border-radius: var(--radius-lg); padding: 1.4rem; display: grid; gap: 0.55rem; align-content: start; }
-.sign-card__icon { width: 48px; height: 48px; border-radius: var(--radius); display: grid; place-items: center; color: var(--color-primary); background: color-mix(in srgb, var(--color-secondary) 16%, transparent); }
-.sign-card h3 { font-size: 1.05rem; }
-.sign-card p { margin: 0; font-size: 0.92rem; color: var(--color-ink-2); }
-@media (max-width: 860px) { .svc-signs__lead, .svc-signs__cards { grid-template-columns: 1fr; } }
+.rb-signs { background: var(--color-paper-2); }
+.rb-signs__lead { display: grid; grid-template-columns: 1.1fr 1fr; gap: clamp(1.5rem, 4vw, 3.5rem); align-items: center; }
+.rb-signs__cards { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; margin-top: clamp(1.5rem, 3vw, 2.25rem); }
+.rb-sign-card { background: var(--color-surface); border: 1px solid var(--color-line); border-radius: var(--radius-lg); padding: 1.4rem; display: grid; gap: 0.55rem; align-content: start; }
+.rb-sign-card__icon { width: 48px; height: 48px; border-radius: var(--radius); display: grid; place-items: center; color: var(--color-primary); background: color-mix(in srgb, var(--color-secondary) 16%, transparent); }
+.rb-sign-card h3 { font-size: 1.05rem; }
+.rb-sign-card p { margin: 0; font-size: 0.92rem; color: var(--color-ink-2); }
+@media (max-width: 860px) { .rb-signs__lead, .rb-signs__cards { grid-template-columns: 1fr; } }
 
 /* Expert positioning — stat + copy asymmetric with photo */
-.svc-expert .split { align-items: stretch; }
-.svc-expert__figure { position: relative; border-radius: var(--radius-lg); overflow: hidden; box-shadow: var(--shadow-lg); }
-.svc-expert__figure img { width: 100%; height: 100%; object-fit: cover; }
-.svc-expert__stat { display: inline-grid; gap: 0.15rem; padding: 0.9rem 1.1rem; border-left: 3px solid var(--color-accent); background: var(--color-paper-2); border-radius: 0 var(--radius) var(--radius) 0; margin: 0.4rem 0 1.1rem; }
-.svc-expert__stat b { font-family: var(--font-accent); font-size: 2rem; line-height: 1; color: var(--color-primary); }
-.svc-expert__stat span { font-size: 0.85rem; color: var(--color-muted); }
-.svc-diffs { display: grid; gap: 0.9rem; margin-top: 1.25rem; }
-.svc-diffs li { display: grid; grid-template-columns: 26px 1fr; gap: 0.7rem; align-items: start; }
-.svc-diffs svg { color: var(--color-secondary); margin-top: 2px; }
-.svc-diffs b { display: block; }
-.svc-diffs p { margin: 0.1rem 0 0; font-size: 0.92rem; color: var(--color-ink-2); }
+.rb-expert .split { align-items: stretch; }
+.rb-expert__figure { position: relative; border-radius: var(--radius-lg); overflow: hidden; box-shadow: var(--shadow-lg); }
+.rb-expert__figure img { width: 100%; height: 100%; object-fit: cover; }
+.rb-expert__stat { display: inline-grid; gap: 0.15rem; padding: 0.9rem 1.1rem; border-left: 3px solid var(--color-accent); background: var(--color-paper-2); border-radius: 0 var(--radius) var(--radius) 0; margin: 0.4rem 0 1.1rem; }
+.rb-expert__stat b { font-family: var(--font-accent); font-size: 2rem; line-height: 1; color: var(--color-primary); }
+.rb-expert__stat span { font-size: 0.85rem; color: var(--color-muted); }
+.rb-diffs { display: grid; gap: 0.9rem; margin-top: 1.25rem; }
+.rb-diffs li { display: grid; grid-template-columns: 26px 1fr; gap: 0.7rem; align-items: start; }
+.rb-diffs svg { color: var(--color-secondary); margin-top: 2px; }
+.rb-diffs b { display: block; }
+.rb-diffs p { margin: 0.1rem 0 0; font-size: 0.92rem; color: var(--color-ink-2); }
 
 /* Included checklist */
-.svc-included__grid { display: grid; grid-template-columns: 1fr 1fr; gap: 0.7rem 2rem; margin-top: 1.25rem; }
-.svc-included__grid li { display: grid; grid-template-columns: 22px 1fr; gap: 0.6rem; align-items: start; font-size: 0.95rem; }
-.svc-included__grid svg { color: var(--color-accent-dark); margin-top: 1px; }
-@media (max-width: 720px) { .svc-included__grid { grid-template-columns: 1fr; } }
+.rb-included__grid { display: grid; grid-template-columns: 1fr 1fr; gap: 0.7rem 2rem; margin-top: 1.25rem; }
+.rb-included__grid li { display: grid; grid-template-columns: 22px 1fr; gap: 0.6rem; align-items: start; font-size: 0.95rem; }
+.rb-included__grid svg { color: var(--color-accent-dark); margin-top: 1px; }
+@media (max-width: 720px) { .rb-included__grid { grid-template-columns: 1fr; } }
 
 /* Comparison table */
-.svc-compare__grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin-top: clamp(1.5rem, 3vw, 2.25rem); }
-.compare-col { border-radius: var(--radius-lg); padding: 1.6rem; border: 1px solid var(--color-line); }
-.compare-col--them { background: var(--color-surface); }
-.compare-col--us { background: color-mix(in srgb, var(--color-primary) 8%, var(--color-surface)); border-color: color-mix(in srgb, var(--color-primary) 30%, var(--color-line)); }
-.compare-col h3 { font-size: 1.15rem; margin-bottom: 1rem; }
-.compare-col ul { display: grid; gap: 0.8rem; }
-.compare-col li { display: grid; grid-template-columns: 22px 1fr; gap: 0.6rem; align-items: start; font-size: 0.93rem; color: var(--color-ink-2); }
-.compare-col--them svg { color: var(--color-muted); }
-.compare-col--us svg { color: var(--color-primary); }
-.compare-col--us li { color: var(--color-ink); }
-@media (max-width: 720px) { .svc-compare__grid { grid-template-columns: 1fr; } }
+.rb-compare__grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin-top: clamp(1.5rem, 3vw, 2.25rem); }
+.rb-compare-col { border-radius: var(--radius-lg); padding: 1.6rem; border: 1px solid var(--color-line); }
+.rb-compare-col--them { background: var(--color-surface); }
+.rb-compare-col--us { background: color-mix(in srgb, var(--color-primary) 8%, var(--color-surface)); border-color: color-mix(in srgb, var(--color-primary) 30%, var(--color-line)); }
+.rb-compare-col h3 { font-size: 1.15rem; margin-bottom: 1rem; }
+.rb-compare-col ul { display: grid; gap: 0.8rem; }
+.rb-compare-col li { display: grid; grid-template-columns: 22px 1fr; gap: 0.6rem; align-items: start; font-size: 0.93rem; color: var(--color-ink-2); }
+.rb-compare-col--them svg { color: var(--color-muted); }
+.rb-compare-col--us svg { color: var(--color-primary); }
+.rb-compare-col--us li { color: var(--color-ink); }
+@media (max-width: 720px) { .rb-compare__grid { grid-template-columns: 1fr; } }
 
 /* Final CTA */
-.svc-cta .actions .link-call { color: #fff; }
-.svc-cta .actions .link-call svg { color: var(--color-accent-bright); }
+.rb-cta .actions .link-call { color: var(--color-white); }
+.rb-cta .actions .link-call svg { color: var(--color-accent-bright); }
 </style>
 
 <!-- ============================= BREADCRUMB (on dark hero) ============================= -->
-<section class="hero hero--interior svc-hero" aria-label="Radiant barriers in Naples, FL">
+<section class="hero hero--interior rb-hero" aria-label="Radiant barriers in Naples, FL">
     <div class="container">
-        <nav class="breadcrumb svc-breadcrumb-nav" aria-label="Breadcrumb" style="margin-bottom:1.25rem;font-size:.85rem;color:rgba(255,255,255,.72);">
+        <nav class="breadcrumb rb-breadcrumb-nav" aria-label="Breadcrumb" style="margin-bottom:1.25rem;font-size:.85rem;color:rgba(255,255,255,.72);">
             <a href="/" style="color:inherit;">Home</a> <span class="breadcrumb-sep">/</span>
             <a href="/services/" style="color:inherit;">Services</a> <span class="breadcrumb-sep">/</span>
             <span aria-current="page" style="color:#fff;">Radiant Barriers</span>
@@ -180,9 +180,9 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
 </section>
 
 <!-- ============================= PROBLEM STATEMENT ============================= -->
-<section class="section svc-signs" aria-label="Signs your attic needs a radiant barrier">
+<section class="section rb-signs" aria-label="Signs your attic needs a radiant barrier">
     <div class="container">
-        <div class="svc-signs__lead">
+        <div class="rb-signs__lead">
             <div class="reveal-left">
                 <span class="eyebrow-label">Why It Matters Here</span>
                 <p class="pull-quote">A Naples roof absorbs sun for most of the day &mdash; a radiant barrier stops that heat before it ever radiates down into your ceiling.</p>
@@ -193,24 +193,24 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
                 <p>This shows up most on homes with west- or south-facing roof slopes, which take the harshest direct sun in our latitude. A radiant barrier addresses that heat at the source, before it becomes a load on your ceiling or your AC system.</p>
             </div>
         </div>
-        <div class="svc-signs__cards">
-            <div class="sign-card reveal-up">
-                <div class="sign-card__icon"><?php echo $svg['gauge']; ?></div>
+        <div class="rb-signs__cards">
+            <div class="rb-sign-card reveal-up">
+                <div class="rb-sign-card__icon"><?php echo $svg['gauge']; ?></div>
                 <h3>Ceiling feels warm to the touch</h3>
                 <p>Radiant heat moving through the attic floor into your ceiling is a clear sign the roof deck is absorbing more than it should.</p>
             </div>
-            <div class="sign-card reveal-up reveal-delay-1">
-                <div class="sign-card__icon"><?php echo $svg['droplets']; ?></div>
+            <div class="rb-sign-card reveal-up reveal-delay-1">
+                <div class="rb-sign-card__icon"><?php echo $svg['droplets']; ?></div>
                 <h3>Insulation alone isn&rsquo;t cutting it</h3>
                 <p>Good insulation slows heat transfer, but it doesn&rsquo;t stop radiant heat the way a reflective barrier can.</p>
             </div>
-            <div class="sign-card reveal-up reveal-delay-2">
-                <div class="sign-card__icon"><?php echo $svg['volume']; ?></div>
+            <div class="rb-sign-card reveal-up reveal-delay-2">
+                <div class="rb-sign-card__icon"><?php echo $svg['volume']; ?></div>
                 <h3>AC runs nonstop on sunny afternoons</h3>
                 <p>A system fighting radiant heat gain from the roof often runs its longest cycles during peak sun, not peak outdoor temperature.</p>
             </div>
-            <div class="sign-card reveal-up reveal-delay-3">
-                <div class="sign-card__icon"><?php echo $svg['alert']; ?></div>
+            <div class="rb-sign-card reveal-up reveal-delay-3">
+                <div class="rb-sign-card__icon"><?php echo $svg['alert']; ?></div>
                 <h3>West- or south-facing roof</h3>
                 <p>These roof slopes take the most direct Naples sun and typically see the biggest benefit from a radiant barrier.</p>
             </div>
@@ -219,24 +219,24 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
 </section>
 
 <!-- ============================= EXPERT POSITIONING ============================= -->
-<section class="section svc-expert" aria-label="Why choose El Dorado for radiant barriers">
+<section class="section rb-expert" aria-label="Why choose El Dorado for radiant barriers">
     <div class="container">
         <div class="split">
             <div class="reveal-left">
                 <span class="eyebrow-label">Local Expertise</span>
                 <h2>What makes El Dorado&rsquo;s radiant barrier installs different in Naples?</h2>
                 <p class="answer-block">El Dorado Heating &amp; Cooling installs radiant barrier systems engineered for Southwest Florida&rsquo;s punishing sun angle, not a generic foil roll. Our family-owned team factors in your roof&rsquo;s orientation, existing insulation, and ventilation before choosing barrier placement, so the install blocks heat instead of trapping it against the deck.</p>
-                <div class="svc-expert__stat">
+                <div class="rb-expert__stat">
                     <b>97%</b>
                     <span>Typical radiant heat reflectivity of a properly installed foil barrier</span>
                 </div>
-                <ul class="svc-diffs">
+                <ul class="rb-diffs">
                     <li><?php echo $svg['check']; ?><div><b>Roof-orientation specific placement</b><p>We prioritize west- and south-facing roof sections that take the hardest afternoon sun in Naples.</p></div></li>
                     <li><?php echo $svg['check']; ?><div><b>Ventilation-safe installation</b><p>The barrier is installed with the airflow clearance your attic needs, so it never traps moisture against the roof deck.</p></div></li>
                     <li><?php echo $svg['check']; ?><div><b>Pairs with existing insulation</b><p>We install over your current insulation rather than replacing it, so you get both heat reflection and heat resistance.</p></div></li>
                 </ul>
             </div>
-            <figure class="svc-expert__figure reveal-right" style="margin:0;">
+            <figure class="rb-expert__figure reveal-right" style="margin:0;">
                 <picture>
                     <source type="image/avif" srcset="/assets/images/team-fleet-480.avif 480w, /assets/images/team-fleet-960.avif 960w" sizes="(max-width: 900px) 100vw, 45vw">
                     <img src="/assets/images/team-fleet.jpg" srcset="/assets/images/team-fleet-480.webp 480w, /assets/images/team-fleet-960.webp 960w" sizes="(max-width: 900px) 100vw, 45vw" alt="El Dorado Heating &amp; Cooling team ready for a Naples energy-efficiency install" width="960" height="960" loading="lazy" decoding="async">
@@ -247,14 +247,14 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
 </section>
 
 <!-- ============================= SERVICE BREAKDOWN ============================= -->
-<section class="section section--light svc-included" aria-label="What a radiant barrier installation includes">
+<section class="section section--light rb-included" aria-label="What a radiant barrier installation includes">
     <div class="container">
         <div class="section-head reveal-up">
             <span class="eyebrow-label">The Visit</span>
             <h2>What&rsquo;s included in a radiant barrier installation?</h2>
             <p class="answer-block">El Dorado Heating &amp; Cooling handles a radiant barrier install as one coordinated visit &mdash; attic and roof assessment, barrier placement planning, careful fastening to rafters or decking, a ventilation check, and a final walk-through so you know exactly what was installed and why.</p>
         </div>
-        <ul class="svc-included__grid reveal-up">
+        <ul class="rb-included__grid reveal-up">
             <li><?php echo $svg['check']; ?><span>Attic and roof structure assessment</span></li>
             <li><?php echo $svg['check']; ?><span>Sun-exposure mapping by roof section</span></li>
             <li><?php echo $svg['check']; ?><span>Foil-faced barrier material selection</span></li>
@@ -279,11 +279,11 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
 </section>
 
 <!-- ============================= TRUST / DIFFERENTIATORS (real facts) ============================= -->
-<section class="section on-dark texture-grain slant-top svc-trust" aria-label="Why Naples homeowners trust El Dorado">
+<section class="section on-dark texture-grain slant-top rb-trust" aria-label="Why Naples homeowners trust El Dorado">
     <span class="grain-layer" aria-hidden="true"></span>
     <div class="container">
         <div class="split">
-            <figure class="svc-expert__figure reveal-left" style="margin:0;">
+            <figure class="rb-expert__figure reveal-left" style="margin:0;">
                 <picture>
                     <source type="image/avif" srcset="/assets/images/hero-service-truck-480.avif 480w, /assets/images/hero-service-truck-960.avif 960w" sizes="(max-width: 900px) 100vw, 45vw">
                     <img src="/assets/images/hero-service-truck.jpg" srcset="/assets/images/hero-service-truck-480.webp 480w, /assets/images/hero-service-truck-960.webp 960w" sizes="(max-width: 900px) 100vw, 45vw" alt="El Dorado Heating &amp; Cooling service truck arriving for a Naples radiant barrier installation" width="960" height="960" loading="lazy" decoding="async">
@@ -293,7 +293,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
                 <span class="eyebrow-label">The Golden Standard</span>
                 <h2>Why do Naples homeowners trust El Dorado for radiant barrier work?</h2>
                 <p class="answer-block">El Dorado Heating &amp; Cooling is a licensed, family-owned Florida contractor based in Naples, serving Collier County in English and Spanish. Homeowners trust us with attic energy upgrades because the crew installing your radiant barrier also handles your HVAC system, so every recommendation considers your whole home, not just one product.</p>
-                <ul class="svc-diffs">
+                <ul class="rb-diffs">
                     <li><?php echo $svg['check']; ?><div><b>Energy upgrades, not upsells</b><p>We only recommend a radiant barrier when your roof orientation and attic setup actually justify it.</p></div></li>
                     <li><?php echo $svg['check']; ?><div><b>Bilingual service</b><p>Clear communication in English and Spanish on every estimate and every visit.</p></div></li>
                     <li><?php echo $svg['check']; ?><div><b>Around-the-clock backup</b><p>Naples customers can reach us 24/7 if a comfort or cooling issue comes up after the install.</p></div></li>
@@ -307,15 +307,15 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
 </section>
 
 <!-- ============================= COMPARISON ============================= -->
-<section class="section svc-compare" aria-label="El Dorado radiant barrier install compared to a DIY foil roll">
+<section class="section rb-compare" aria-label="El Dorado radiant barrier install compared to a DIY foil roll">
     <div class="container">
         <div class="section-head reveal-up">
             <span class="eyebrow-label">The Difference</span>
             <h2>What sets a professional radiant barrier install apart from a DIY foil roll?</h2>
             <p class="answer-block">A DIY foil roll laid across the attic floor can trap moisture and actually work against your insulation. El Dorado Heating &amp; Cooling installs barrier material on the roof rafters or deck with proper clearance, engineered for how heat and humidity actually move through a Southwest Florida attic.</p>
         </div>
-        <div class="svc-compare__grid">
-            <div class="compare-col compare-col--them reveal-left">
+        <div class="rb-compare__grid">
+            <div class="rb-compare-col rb-compare-col--them reveal-left">
                 <h3>A DIY foil roll</h3>
                 <ul>
                     <li><?php echo $svg['x']; ?><span>Foil laid flat on the attic floor</span></li>
@@ -325,7 +325,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
                     <li><?php echo $svg['x']; ?><span>Installed once, never inspected again</span></li>
                 </ul>
             </div>
-            <div class="compare-col compare-col--us reveal-right">
+            <div class="rb-compare-col rb-compare-col--us reveal-right">
                 <h3>El Dorado radiant barrier install</h3>
                 <ul>
                     <li><?php echo $svg['check']; ?><span>Foil fastened to rafters or roof deck</span></li>
@@ -340,7 +340,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
 </section>
 
 <!-- ============================= FAQ ============================= -->
-<section class="section section--light svc-faq" aria-label="Radiant barrier FAQs">
+<section class="section section--light rb-faq" aria-label="Radiant barrier FAQs">
     <div class="container">
         <div class="section-head reveal-up">
             <span class="eyebrow-label">Good To Know</span>
@@ -361,7 +361,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
 <?php renderRelatedServices($serviceSlug); ?>
 
 <!-- ============================= FINAL CTA ============================= -->
-<section class="cta-banner on-dark texture-grain edge-wave-top svc-cta" aria-label="Schedule a radiant barrier installation">
+<section class="cta-banner on-dark texture-grain edge-wave-top rb-cta" aria-label="Schedule a radiant barrier installation">
     <span class="grain-layer" aria-hidden="true"></span>
     <div class="container">
         <div class="reveal-up">
