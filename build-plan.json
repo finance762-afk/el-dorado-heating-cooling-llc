@@ -289,6 +289,7 @@
     }
   },
   "design": {
+    "archetype": "warm-human",
     "fonts": {},
     "notes": "",
     "style": "modern",
@@ -298,7 +299,12 @@
       "secondary": "#3FA9E0",
       "extracted_from_logo": true
     },
-    "logo_analysis": {}
+    "logo_analysis": {
+      "aspect_ratio": 2.24,
+      "dimensions": "605x270",
+      "background_removed": true,
+      "size_category": "wordmark"
+    }
   },
   "domain": "el-dorado-heating-cooling-llc",
   "phases": [
