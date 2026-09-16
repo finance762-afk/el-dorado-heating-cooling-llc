@@ -24,6 +24,7 @@ $pageType        = 'city';
 $citySlug        = 'marco-island';
 $pageTitle       = 'HVAC & AC Repair in Marco Island, FL | El Dorado Heating & Cooling';
 $metaDescription = 'Expert HVAC service in Marco Island, FL. El Dorado Heating & Cooling serves Hideaway Beach, The Estates, and Old Marco with AC repair, installation & maintenance. Call (239) 404-6797.';
+$pageDescription = $metaDescription;
 $canonicalUrl    = $siteUrl . '/service-areas/marco-island/';
 
 include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';

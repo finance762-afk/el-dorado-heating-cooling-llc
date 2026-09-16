@@ -10,6 +10,7 @@ $currentPage     = 'services';
 $ogType          = 'website';
 $pageTitle       = 'Air Purifiers Naples FL | El Dorado Heating & Cooling LLC';
 $metaDescription = 'Whole-home air purifier installation in Naples, FL from El Dorado Heating & Cooling. Cleaner air against pollen, mold, and humidity. Call (239) 404-6797.';
+$pageDescription = $metaDescription;
 $canonicalUrl    = $siteUrl . '/services/air-purifiers/';
 
 // Page FAQs → also drives FAQPage schema.

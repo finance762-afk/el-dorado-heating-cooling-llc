@@ -8,6 +8,7 @@ $currentPage    = 'faq';
 $pageType       = 'faq';
 $pageTitle      = 'Frequently Asked Questions | El Dorado Heating & Cooling';
 $metaDescription = 'Get answers to common HVAC questions for Naples, FL homeowners. Learn about AC maintenance, emergency repairs, energy efficiency, and what to expect from El Dorado Heating & Cooling.';
+$pageDescription = $metaDescription;
 $canonicalUrl   = $siteUrl . '/faq/';
 $ogType         = 'website';
 

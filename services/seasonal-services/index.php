@@ -10,6 +10,7 @@ $currentPage     = 'services';
 $ogType          = 'website';
 $pageTitle       = 'Seasonal HVAC Services in Naples, FL | El Dorado Heating & Cooling LLC';
 $metaDescription = 'Pre-season AC compressor, fan coil, thermostat, and duct service in Naples, FL from El Dorado Heating & Cooling. Get heat-ready before summer. Call (239) 404-6797.';
+$pageDescription = $metaDescription;
 $canonicalUrl    = $siteUrl . '/services/seasonal-services/';
 
 // The individual offerings this group page covers.

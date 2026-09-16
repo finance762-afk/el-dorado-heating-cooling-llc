@@ -10,6 +10,7 @@ $currentPage     = 'services';
 $ogType          = 'website';
 $pageTitle       = 'HVAC Services in Naples, FL | El Dorado Heating & Cooling LLC';
 $metaDescription = 'Complete HVAC services in Naples, FL — AC repair, heating, installation, maintenance & ductwork from El Dorado Heating & Cooling. Call (239) 404-6797.';
+$pageDescription = $metaDescription;
 $canonicalUrl    = $siteUrl . '/services/hvac-services/';
 
 // The 3 themed groups covering all 25 individual offerings under this flagship page.

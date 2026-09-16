@@ -10,6 +10,7 @@ $currentPage     = 'services';
 $ogType          = 'website';
 $pageTitle       = 'Whole-Home Dehumidifiers Naples FL | El Dorado Heating & Cooling LLC';
 $metaDescription = 'Whole-home dehumidifier installation in Naples, FL from El Dorado Heating & Cooling. Beat Southwest Florida humidity, mold, and musty air. Call (239) 404-6797.';
+$pageDescription = $metaDescription;
 $canonicalUrl    = $siteUrl . '/services/dehumidifiers/';
 
 // Page FAQs → also drives FAQPage schema.

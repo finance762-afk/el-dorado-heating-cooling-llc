@@ -8,6 +8,7 @@ $currentPage    = 'home';
 $pageType       = 'home';
 $pageTitle      = 'HVAC & AC Repair in Naples, FL | El Dorado Heating & Cooling';
 $metaDescription = 'El Dorado Heating & Cooling is a family-owned HVAC company in Naples, FL offering AC repair, installation, maintenance and 24/7 emergency service. Call (239) 404-6797.';
+$pageDescription = $metaDescription;
 $canonicalUrl   = $siteUrl . '/';
 $ogType         = 'website';
 

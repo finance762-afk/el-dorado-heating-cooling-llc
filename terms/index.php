@@ -8,6 +8,7 @@ $currentPage    = 'terms';
 $pageType       = 'other';
 $pageTitle      = 'Terms of Service | El Dorado Heating & Cooling LLC';
 $metaDescription = 'Terms governing use of our website and engagement of our HVAC services in Naples, FL.';
+$pageDescription = $metaDescription;
 $canonicalUrl   = $siteUrl . '/terms/';
 $ogType         = 'website';
 

@@ -8,6 +8,7 @@ $currentPage    = 'error';
 $pageType       = 'other';
 $pageTitle      = '404 - Page Not Found | El Dorado Heating & Cooling';
 $metaDescription = 'The page you requested could not be found. Return to our homepage or contact El Dorado Heating & Cooling for HVAC services in Naples, FL.';
+$pageDescription = $metaDescription;
 $canonicalUrl   = $siteUrl . '/404';
 $noindex        = true;  // Do not index 404 pages
 

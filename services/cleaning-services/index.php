@@ -10,6 +10,7 @@ $currentPage     = 'services';
 $ogType          = 'website';
 $pageTitle       = 'HVAC & AC Cleaning Services Naples, FL | El Dorado Heating & Cooling LLC';
 $metaDescription = 'Professional HVAC and AC system cleaning in Naples, FL — coil cleaning, system cleaning, and duct service that restore airflow and efficiency. Call (239) 404-6797.';
+$pageDescription = $metaDescription;
 $canonicalUrl    = $siteUrl . '/services/cleaning-services/';
 
 // The individual offerings this group page covers.

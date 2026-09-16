@@ -8,6 +8,7 @@ $currentPage     = 'blog';
 $pageType        = 'other';
 $pageTitle       = 'AC Repair Costs in Naples, FL: What to Expect in 2026';
 $metaDescription = 'Naples AC repairs range from $150 for minor fixes to $1,200+ for compressor replacements. Learn what drives costs and when replacement makes sense.';
+$pageDescription = $metaDescription;
 $canonicalUrl    = $siteUrl . '/blog/ac-repair-costs-naples-florida/';
 
 include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';

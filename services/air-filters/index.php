@@ -10,6 +10,7 @@ $currentPage     = 'services';
 $ogType          = 'website';
 $pageTitle       = 'Air Filter Replacement Naples FL | El Dorado Heating & Cooling LLC';
 $metaDescription = 'Air filter & furnace filter replacement in Naples, FL from El Dorado Heating & Cooling. Right-size, right MERV filters. Call (239) 404-6797.';
+$pageDescription = $metaDescription;
 $canonicalUrl    = $siteUrl . '/services/air-filters/';
 
 // Page FAQs → also drives FAQPage schema.

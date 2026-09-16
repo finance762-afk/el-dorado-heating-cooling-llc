@@ -8,6 +8,7 @@ $currentPage     = 'blog';
 $pageType        = 'other';
 $pageTitle       = 'HVAC Tips & Advice Blog | El Dorado Heating & Cooling';
 $metaDescription = 'Expert HVAC advice from El Dorado Heating & Cooling. Learn about AC repair costs, maintenance tips, and how to keep your Naples home comfortable year-round.';
+$pageDescription = $metaDescription;
 $canonicalUrl    = $siteUrl . '/blog/';
 
 include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';

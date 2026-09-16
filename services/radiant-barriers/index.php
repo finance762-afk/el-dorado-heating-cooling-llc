@@ -10,6 +10,7 @@ $currentPage     = 'services';
 $ogType          = 'website';
 $pageTitle       = 'Radiant Barrier Installation Naples FL | El Dorado Heating & Cooling LLC';
 $metaDescription = 'Radiant barrier installation in Naples, FL from El Dorado Heating & Cooling. Reflect attic heat before it enters your home and lower cooling bills. Call (239) 404-6797.';
+$pageDescription = $metaDescription;
 $canonicalUrl    = $siteUrl . '/services/radiant-barriers/';
 
 // Page FAQs → also drives FAQPage schema.

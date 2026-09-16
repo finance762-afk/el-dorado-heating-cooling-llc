@@ -8,6 +8,7 @@ $currentPage    = 'contact';
 $pageType       = 'contact';
 $pageTitle      = 'Contact Us | El Dorado Heating & Cooling | Naples, FL';
 $metaDescription = 'Get in touch with El Dorado Heating & Cooling for AC repair, installation, and maintenance in Naples, FL. Call (239) 404-6797 or request a free estimate.';
+$pageDescription = $metaDescription;
 $canonicalUrl   = $siteUrl . '/contact/';
 $ogType         = 'website';
 

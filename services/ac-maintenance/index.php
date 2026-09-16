@@ -10,6 +10,7 @@ $currentPage     = 'services';
 $ogType          = 'website';
 $pageTitle       = 'AC Maintenance Naples FL | El Dorado Heating & Cooling LLC';
 $metaDescription = 'Preventive AC maintenance in Naples, FL from El Dorado Heating & Cooling. Twice-yearly tune-ups built for Florida heat, humidity, and salt air. Call (239) 404-6797.';
+$pageDescription = $metaDescription;
 $canonicalUrl    = $siteUrl . '/services/ac-maintenance/';
 
 // Page FAQs → also drives FAQPage schema.

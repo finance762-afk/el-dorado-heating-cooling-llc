@@ -24,6 +24,7 @@ $pageType        = 'city';
 $citySlug        = 'bonita-springs';
 $pageTitle       = 'HVAC & AC Repair in Bonita Springs, FL | El Dorado Heating & Cooling';
 $metaDescription = 'Expert HVAC service in Bonita Springs, FL. El Dorado Heating & Cooling serves Bonita Bay, Pelican Landing, and The Brooks with AC repair, installation & maintenance. Call (239) 404-6797.';
+$pageDescription = $metaDescription;
 $canonicalUrl    = $siteUrl . '/service-areas/bonita-springs/';
 
 include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';

@@ -10,6 +10,7 @@ $currentPage     = 'services';
 $ogType          = 'website';
 $pageTitle       = 'Home Energy Audits Naples FL | El Dorado Heating & Cooling LLC';
 $metaDescription = 'Home energy audits in Naples, FL from El Dorado Heating & Cooling. A diagnostic assessment that finds efficiency losses and lowers your utility bill. Call (239) 404-6797.';
+$pageDescription = $metaDescription;
 $canonicalUrl    = $siteUrl . '/services/energy-audits/';
 
 // Page FAQs → also drives FAQPage schema.

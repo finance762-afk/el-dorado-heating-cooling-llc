@@ -8,6 +8,7 @@ $currentPage    = 'about';
 $pageType       = 'about';
 $pageTitle      = 'About Us | El Dorado Heating & Cooling | Naples, FL';
 $metaDescription = 'Learn about El Dorado Heating & Cooling, a family-owned HVAC company serving Naples with 60+ years of combined experience. Licensed, insured, and available 24/7.';
+$pageDescription = $metaDescription;
 $canonicalUrl   = $siteUrl . '/about/';
 $ogType         = 'website';
 

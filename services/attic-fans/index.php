@@ -10,6 +10,7 @@ $currentPage     = 'services';
 $ogType          = 'website';
 $pageTitle       = 'Attic Fan Installation Naples FL | El Dorado Heating & Cooling LLC';
 $metaDescription = 'Attic fan installation and repair in Naples, FL from El Dorado Heating & Cooling. Vent 130-degree attic heat and lower cooling bills. Call (239) 404-6797.';
+$pageDescription = $metaDescription;
 $canonicalUrl    = $siteUrl . '/services/attic-fans/';
 
 // Page FAQs → also drives FAQPage schema.

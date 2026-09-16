@@ -5,7 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title><?php echo isset($pageTitle) ? $pageTitle : $siteName . ' | ' . $primaryKeyword . ' | ' . $address['city'] . ', ' . $address['state']; ?></title>
-    <meta name="description" content="<?php echo isset($metaDescription) ? $metaDescription : $siteName . ' provides expert HVAC services in ' . $address['city'] . ', ' . $address['state'] . '. Professional AC repair, installation, and maintenance. Call ' . $phone . ' for service.'; ?>">
+    <?php
+    // Accept both $pageDescription (standard) and $metaDescription (legacy)
+    $description = isset($pageDescription) ? $pageDescription : (isset($metaDescription) ? $metaDescription : $siteName . ' provides expert HVAC services in ' . $address['city'] . ', ' . $address['state'] . '. Professional AC repair, installation, and maintenance. Call ' . $phone . ' for service.');
+    ?>
+    <meta name="description" content="<?php echo $description; ?>">
 
     <?php if (isset($noindex) && $noindex): ?>
     <meta name="robots" content="noindex, nofollow">
@@ -16,7 +20,7 @@
     <!-- Open Graph -->
     <meta property="og:type" content="<?php echo isset($ogType) ? $ogType : 'website'; ?>">
     <meta property="og:title" content="<?php echo isset($pageTitle) ? $pageTitle : $siteName . ' | ' . $address['city'] . ', ' . $address['state']; ?>">
-    <meta property="og:description" content="<?php echo isset($metaDescription) ? $metaDescription : 'Expert HVAC services in ' . $address['city'] . ', FL. Professional AC repair, installation & maintenance.'; ?>">
+    <meta property="og:description" content="<?php echo $description; ?>">
     <meta property="og:url" content="<?php echo $canonicalUrl ?? $siteUrl; ?>">
     <meta property="og:image" content="<?php echo $siteUrl; ?>/assets/images/logo-mark.png">
     <meta property="og:site_name" content="<?php echo $siteName; ?>">

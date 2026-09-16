@@ -8,6 +8,7 @@ $currentPage    = 'privacy-policy';
 $pageType       = 'other';
 $pageTitle      = 'Privacy Policy | El Dorado Heating & Cooling LLC';
 $metaDescription = 'How El Dorado Heating & Cooling LLC collects, uses, and protects your information. Privacy practices for our website and contact forms.';
+$pageDescription = $metaDescription;
 $canonicalUrl   = $siteUrl . '/privacy-policy/';
 $ogType         = 'website';
 

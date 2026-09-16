@@ -8,6 +8,7 @@ $currentPage    = 'thank-you';
 $pageType       = 'other';
 $pageTitle      = 'Thank You | El Dorado Heating & Cooling';
 $metaDescription = 'Thank you for contacting El Dorado Heating & Cooling. We\'ll respond to your inquiry shortly.';
+$pageDescription = $metaDescription;
 $canonicalUrl   = $siteUrl . '/thank-you';
 $noindex        = true;  // Do not index thank-you pages
 

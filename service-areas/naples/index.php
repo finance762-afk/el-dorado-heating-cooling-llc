@@ -18,6 +18,7 @@ $pageType        = 'city';
 $citySlug        = 'naples';
 $pageTitle       = 'HVAC Services in Naples, FL | AC Repair & Installation | El Dorado';
 $metaDescription = 'Expert HVAC services in Naples, FL. El Dorado Heating & Cooling provides AC repair, installation, and maintenance across Naples Park, Pelican Bay, and East Naples. Call (239) 404-6797.';
+$pageDescription = $metaDescription;
 $canonicalUrl    = $siteUrl . '/service-areas/naples/';
 
 // Hero image preload

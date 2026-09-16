@@ -8,6 +8,7 @@ $currentPage    = 'accessibility';
 $pageType       = 'other';
 $pageTitle      = 'Accessibility Statement | El Dorado Heating & Cooling LLC';
 $metaDescription = 'Our commitment to ensuring digital accessibility for people with disabilities. WCAG 2.1 Level AA conformance.';
+$pageDescription = $metaDescription;
 $canonicalUrl   = $siteUrl . '/accessibility/';
 $ogType         = 'website';
 

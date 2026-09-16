@@ -10,6 +10,7 @@ $currentPage     = 'services';
 $ogType          = 'website';
 $pageTitle       = 'Rooftop Air Conditioners Naples FL | El Dorado Heating & Cooling LLC';
 $metaDescription = 'Rooftop AC install, repair & maintenance for Naples, FL commercial buildings from El Dorado Heating & Cooling. Packaged units serviced with minimal downtime. Call (239) 404-6797.';
+$pageDescription = $metaDescription;
 $canonicalUrl    = $siteUrl . '/services/rooftop-air-conditioners/';
 
 // Page FAQs → also drives FAQPage schema.

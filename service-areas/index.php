@@ -8,6 +8,7 @@ $currentPage     = 'service-areas';
 $pageType        = 'other';
 $pageTitle       = 'HVAC Service Areas in Southwest Florida | El Dorado Heating & Cooling';
 $metaDescription = 'El Dorado Heating & Cooling serves Naples, Bonita Springs, and Marco Island with expert AC repair, installation, and maintenance. Local HVAC service across Collier County, FL.';
+$pageDescription = $metaDescription;
 $canonicalUrl    = $siteUrl . '/service-areas/';
 
 include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';

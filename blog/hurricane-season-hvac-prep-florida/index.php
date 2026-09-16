@@ -8,6 +8,7 @@ $currentPage     = 'blog';
 $pageType        = 'blog';
 $pageTitle       = 'Hurricane Season HVAC Prep for Southwest Florida Homes';
 $metaDescription = 'Protect your AC system before a storm hits. From securing outdoor units to post-storm inspection checklists, here\'s how Naples homeowners can prevent thousands in avoidable HVAC damage.';
+$pageDescription = $metaDescription;
 $canonicalUrl    = $siteUrl . '/blog/hurricane-season-hvac-prep-florida/';
 
 include $_SERVER['DOCUMENT_ROOT'] . '/includes/head.php';

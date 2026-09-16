@@ -8,6 +8,7 @@ $currentPage    = 'cookie-policy';
 $pageType       = 'other';
 $pageTitle      = 'Cookie Policy | El Dorado Heating & Cooling LLC';
 $metaDescription = 'How El Dorado Heating & Cooling LLC uses cookies and tracking technologies on our website.';
+$pageDescription = $metaDescription;
 $canonicalUrl   = $siteUrl . '/cookie-policy/';
 $ogType         = 'website';
 

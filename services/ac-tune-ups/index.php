@@ -10,6 +10,7 @@ $currentPage     = 'services';
 $ogType          = 'website';
 $pageTitle       = 'AC Tune-Ups Naples FL | El Dorado Heating & Cooling LLC';
 $metaDescription = 'Seasonal AC tune-ups in Naples, FL from El Dorado Heating & Cooling. Get your system efficient and summer-ready before the heat hits. Free estimate — call (239) 404-6797.';
+$pageDescription = $metaDescription;
 $canonicalUrl    = $siteUrl . '/services/ac-tune-ups/';
 
 // Page FAQs → also drives FAQPage schema.
