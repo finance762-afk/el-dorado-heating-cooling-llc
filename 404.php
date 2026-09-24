@@ -94,7 +94,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
           <li><a href="/services/hvac-services/">AC Repair &amp; Installation</a></li>
           <li><a href="/services/ac-maintenance/">AC Maintenance Plans</a></li>
           <li><a href="/about/">About El Dorado Heating &amp; Cooling</a></li>
-          <li><a href="/faq/">FAQ</a></li>
+          <li><a href="/faq/">Frequently Asked Questions</a></li>
           <li><a href="/contact/">Contact Us</a></li>
         </ul>
       </div>

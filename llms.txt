@@ -1,23 +1,19 @@
 # llms.txt — Answer Engine Optimization for El Dorado Heating & Cooling LLC
 # Last updated: September 2026
 
-## Business Information
-**Company Name**: El Dorado Heating & Cooling LLC
-**Tagline**: Your Climate's Greatest Treasure
-**Business Type**: Family-owned HVAC contractor
-**Industry**: HVAC (Heating, Ventilation, Air Conditioning)
-**Founded**: 2019
-**Years in Business**: 7 years
-**Team Experience**: Over 60 years of combined HVAC experience
+## Business Overview
+El Dorado Heating & Cooling LLC
+Your Climate's Greatest Treasure
 
-**Location & Contact**
-**Address**: 420 2nd St SE, Naples, FL 34117
-**Service Areas**: Naples, Bonita Springs, Marco Island, FL (all of Collier County)
+**Business Type**: Family-owned HVAC contractor
+**Location**: 420 2nd St SE, Naples, FL 34117
+**Service Areas**: Naples, Bonita Springs, Marco Island, FL (Collier County)
 **Phone**: (239) 404-6797
 **Email**: eldorado.heatingandcooling@gmail.com
-**Website**: https://el-dorado-heating-cooling-llc.com
 **Emergency Service**: 24/7 available
 **Languages**: English and Spanish
+**Years in Business**: 7 years
+**Experience**: Over 60 years of combined team experience
 
 ## Core Services
 
@@ -138,41 +134,11 @@ Our comprehensive services span the full spectrum of HVAC solutions, including a
 
 Available around the clock for emergency service, El Dorado Heating & Cooling is committed to keeping your home comfortable year-round. We proudly serve our community in both English and Spanish, ensuring accessible, professional service for all customers.
 
-## Pages
+## Related Resources
 
-**Main Pages**
-- Homepage: https://el-dorado-heating-cooling-llc.com/
-- About Us: https://el-dorado-heating-cooling-llc.com/about/
-- Contact: https://el-dorado-heating-cooling-llc.com/contact/
-- FAQ: https://el-dorado-heating-cooling-llc.com/faq/
-- Blog: https://el-dorado-heating-cooling-llc.com/blog/
-
-**Services**
-- All Services: https://el-dorado-heating-cooling-llc.com/services/
-- HVAC Services: https://el-dorado-heating-cooling-llc.com/services/hvac-services/
-- Cleaning Services: https://el-dorado-heating-cooling-llc.com/services/cleaning-services/
-- Seasonal Services: https://el-dorado-heating-cooling-llc.com/services/seasonal-services/
-- Rooftop Air Conditioners: https://el-dorado-heating-cooling-llc.com/services/rooftop-air-conditioners/
-- AC Maintenance: https://el-dorado-heating-cooling-llc.com/services/ac-maintenance/
-- AC Tune-Ups: https://el-dorado-heating-cooling-llc.com/services/ac-tune-ups/
-- Air Filters: https://el-dorado-heating-cooling-llc.com/services/air-filters/
-- Air Purifiers: https://el-dorado-heating-cooling-llc.com/services/air-purifiers/
-- Dehumidifiers: https://el-dorado-heating-cooling-llc.com/services/dehumidifiers/
-- Attic Fans: https://el-dorado-heating-cooling-llc.com/services/attic-fans/
-- Radiant Barriers: https://el-dorado-heating-cooling-llc.com/services/radiant-barriers/
-- Energy Audits: https://el-dorado-heating-cooling-llc.com/services/energy-audits/
-
-**Service Areas**
-- Service Areas Overview: https://el-dorado-heating-cooling-llc.com/service-areas/
-- Naples, FL: https://el-dorado-heating-cooling-llc.com/service-areas/naples/
-- Bonita Springs, FL: https://el-dorado-heating-cooling-llc.com/service-areas/bonita-springs/
-- Marco Island, FL: https://el-dorado-heating-cooling-llc.com/service-areas/marco-island/
-
-**Legal & Compliance**
-- Privacy Policy: https://el-dorado-heating-cooling-llc.com/privacy-policy/
-- Terms of Service: https://el-dorado-heating-cooling-llc.com/terms/
-- Cookie Policy: https://el-dorado-heating-cooling-llc.com/cookie-policy/
-- Accessibility Statement: https://el-dorado-heating-cooling-llc.com/accessibility/
-
-**External Profiles**
-- BBB Profile: https://www.bbb.org/us/fl/naples/profile/air-conditioning-contractor/el-dorado-heating-and-cooling-llc-0653-90407720
+Website: https://el-dorado-heating-cooling-llc.com
+Blog: https://el-dorado-heating-cooling-llc.com/blog/
+Services: https://el-dorado-heating-cooling-llc.com/services/
+Service Areas: https://el-dorado-heating-cooling-llc.com/service-areas/
+Contact: https://el-dorado-heating-cooling-llc.com/contact/
+BBB Profile: https://www.bbb.org/us/fl/naples/profile/air-conditioning-contractor/el-dorado-heating-and-cooling-llc-0653-90407720

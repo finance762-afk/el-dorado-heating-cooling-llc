@@ -102,66 +102,6 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/header.php';
             <li><strong>Age of the system:</strong> A 12-year-old AC system in Naples' coastal climate may need parts that are no longer manufactured, requiring universal replacements or aftermarket components that cost more and may not fit perfectly.</li>
             <li><strong>Time of failure:</strong> Emergency repairs during peak cooling season (May through September) can carry rush fees, especially if you call after business hours. A $300 daytime repair might become $450 at midnight on a Saturday in July.</li>
         </ul>
-    </div>
-</article>
-
-<!-- ═══════════════════ CTA BAND (mid-page estimate form) ═══════════════════ -->
-<section class="cta-band" id="estimate" aria-label="Get a free estimate">
-  <div class="container">
-    <div class="cta-band-grid">
-      <div class="cta-band-copy">
-        <h2>Need AC repair in Naples?</h2>
-        <p>Call us at <a href="tel:<?php echo $phoneTel; ?>"><?php echo $phone; ?></a> for same-day service, or request a free estimate online — we reply the same day, usually within the hour.</p>
-        <div class="cta-band-cta" style="display: none;">
-          <button type="button" class="btn btn-accent btn-lg" data-open-estimate>Get a Free Estimate</button>
-        </div>
-      </div>
-      <div class="cta-band-form">
-        <form action="<?php echo htmlspecialchars($formAction); ?>" method="POST">
-          <input type="text" name="_honey" style="display:none !important" tabindex="-1" autocomplete="off" aria-hidden="true">
-          <input type="hidden" name="_next" value="<?php echo htmlspecialchars($siteUrl); ?>/thank-you">
-          <?php echo p1_attribution_fields('cta-band'); ?>
-          <input type="hidden" name="consent_version" value="v2.1">
-          <input type="hidden" name="consent_page" value="<?php echo htmlspecialchars($_SERVER['REQUEST_URI']); ?>">
-          <div class="cta-band-form-grid">
-            <div class="field">
-              <label for="cta-name">Your Name</label>
-              <input id="cta-name" type="text" name="name" autocomplete="name" required>
-            </div>
-            <div class="field">
-              <label for="cta-phone">Phone</label>
-              <input id="cta-phone" type="tel" name="phone" autocomplete="tel" required>
-            </div>
-            <div class="field">
-              <label for="cta-email">Email</label>
-              <input id="cta-email" type="email" name="email" autocomplete="email" required>
-            </div>
-            <div class="field--2">
-              <label for="cta-service">Service Needed</label>
-              <select id="cta-service" name="service">
-                <option value="">Select a service</option>
-                <?php foreach ($servicePages as $ctaSvc): ?>
-                <option value="<?php echo htmlspecialchars($ctaSvc['name']); ?>"><?php echo htmlspecialchars($ctaSvc['name']); ?></option>
-                <?php endforeach; ?>
-              </select>
-            </div>
-            <button type="submit" class="btn btn-primary">Get Free Estimate</button>
-            <div class="form-consent-compact">
-              <label>
-                <input type="checkbox" name="terms_accepted" value="yes" required>
-                <span>I agree to the <a href="/privacy-policy/">Privacy Policy</a> and <a href="/terms/">Terms of Service</a>. <span class="required-star">*</span></span>
-              </label>
-            </div>
-            <p class="form-disclaimer">We reply the same day, usually within the hour. Your info is never shared.</p>
-          </div>
-        </form>
-      </div>
-    </div>
-  </div>
-</section>
-
-<article class="blog-post">
-    <div class="blog-post__content container-narrow">
 
         <h2>Common Naples AC Repairs and Their Costs</h2>
         <p>Based on El Dorado Heating & Cooling's service calls across Naples, Bonita Springs, and Marco Island, here's what homeowners typically pay for common AC failures:</p>
